@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Microsoft.Extensions.DependencyInjection - API Diff between .NET 6 and .NET 7</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/diff.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/csharp.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">API Diff between .NET 6 and .NET 7</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">.NET 7.0   API Changes</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Microsoft.AspNetCore.App <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../7.0/" class="dropdown-item">API Difference 6.0 vs 7.0</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Authentication.Cookies/" class="dropdown-item">Microsoft.AspNetCore.Authentication.Cookies</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Authentication/" class="dropdown-item">Microsoft.AspNetCore.Authentication</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Authorization.Infrastructure/" class="dropdown-item">Microsoft.AspNetCore.Authorization.Infrastructure</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Authorization.Policy/" class="dropdown-item">Microsoft.AspNetCore.Authorization.Policy</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Authorization/" class="dropdown-item">Microsoft.AspNetCore.Authorization</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Builder/" class="dropdown-item">Microsoft.AspNetCore.Builder</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Components.CompilerServices/" class="dropdown-item">Microsoft.AspNetCore.Components.CompilerServices</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Components.Forms/" class="dropdown-item">Microsoft.AspNetCore.Components.Forms</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Components.RenderTree/" class="dropdown-item">Microsoft.AspNetCore.Components.RenderTree</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Components.Rendering/" class="dropdown-item">Microsoft.AspNetCore.Components.Rendering</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Components.Routing/" class="dropdown-item">Microsoft.AspNetCore.Components.Routing</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Components.Web.Virtualization/" class="dropdown-item">Microsoft.AspNetCore.Components.Web.Virtualization</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Components.Web/" class="dropdown-item">Microsoft.AspNetCore.Components.Web</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Components/" class="dropdown-item">Microsoft.AspNetCore.Components</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Connections.Features/" class="dropdown-item">Microsoft.AspNetCore.Connections.Features</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Connections/" class="dropdown-item">Microsoft.AspNetCore.Connections</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel/" class="dropdown-item">Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.DataProtection.Internal/" class="dropdown-item">Microsoft.AspNetCore.DataProtection.Internal</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Diagnostics/" class="dropdown-item">Microsoft.AspNetCore.Diagnostics</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Hosting/" class="dropdown-item">Microsoft.AspNetCore.Hosting</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Http.Features/" class="dropdown-item">Microsoft.AspNetCore.Http.Features</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Http.HttpResults/" class="dropdown-item">Microsoft.AspNetCore.Http.HttpResults</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Http.Metadata/" class="dropdown-item">Microsoft.AspNetCore.Http.Metadata</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Http/" class="dropdown-item">Microsoft.AspNetCore.Http</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.HttpLogging/" class="dropdown-item">Microsoft.AspNetCore.HttpLogging</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Identity/" class="dropdown-item">Microsoft.AspNetCore.Identity</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Mvc.ApplicationModels/" class="dropdown-item">Microsoft.AspNetCore.Mvc.ApplicationModels</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Mvc.Infrastructure/" class="dropdown-item">Microsoft.AspNetCore.Mvc.Infrastructure</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Mvc.ModelBinding.Binders/" class="dropdown-item">Microsoft.AspNetCore.Mvc.ModelBinding.Binders</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Mvc.ModelBinding.Metadata/" class="dropdown-item">Microsoft.AspNetCore.Mvc.ModelBinding.Metadata</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Mvc.ModelBinding/" class="dropdown-item">Microsoft.AspNetCore.Mvc.ModelBinding</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Mvc.RazorPages/" class="dropdown-item">Microsoft.AspNetCore.Mvc.RazorPages</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Mvc.Rendering/" class="dropdown-item">Microsoft.AspNetCore.Mvc.Rendering</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Mvc.Routing/" class="dropdown-item">Microsoft.AspNetCore.Mvc.Routing</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Mvc.ViewFeatures/" class="dropdown-item">Microsoft.AspNetCore.Mvc.ViewFeatures</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Mvc/" class="dropdown-item">Microsoft.AspNetCore.Mvc</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.OutputCaching/" class="dropdown-item">Microsoft.AspNetCore.OutputCaching</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.RateLimiting/" class="dropdown-item">Microsoft.AspNetCore.RateLimiting</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.RequestDecompression/" class="dropdown-item">Microsoft.AspNetCore.RequestDecompression</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.ResponseCompression/" class="dropdown-item">Microsoft.AspNetCore.ResponseCompression</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Routing.Patterns/" class="dropdown-item">Microsoft.AspNetCore.Routing.Patterns</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Routing/" class="dropdown-item">Microsoft.AspNetCore.Routing</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Server.IIS.Core/" class="dropdown-item">Microsoft.AspNetCore.Server.IIS.Core</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Server.Kestrel.Core/" class="dropdown-item">Microsoft.AspNetCore.Server.Kestrel.Core</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Server.Kestrel.Https/" class="dropdown-item">Microsoft.AspNetCore.Server.Kestrel.Https</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.Server.Kestrel.Transport.Quic/" class="dropdown-item">Microsoft.AspNetCore.Server.Kestrel.Transport.Quic</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.SignalR.Protocol/" class="dropdown-item">Microsoft.AspNetCore.SignalR.Protocol</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.SignalR/" class="dropdown-item">Microsoft.AspNetCore.SignalR</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.AspNetCore.WebUtilities/" class="dropdown-item">Microsoft.AspNetCore.WebUtilities</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Caching.Distributed/" class="dropdown-item">Microsoft.Extensions.Caching.Distributed</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Caching.Memory/" class="dropdown-item">Microsoft.Extensions.Caching.Memory</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Configuration.CommandLine/" class="dropdown-item">Microsoft.Extensions.Configuration.CommandLine</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Configuration.EnvironmentVariables/" class="dropdown-item">Microsoft.Extensions.Configuration.EnvironmentVariables</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Configuration.Ini/" class="dropdown-item">Microsoft.Extensions.Configuration.Ini</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Configuration.Memory/" class="dropdown-item">Microsoft.Extensions.Configuration.Memory</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Configuration.Xml/" class="dropdown-item">Microsoft.Extensions.Configuration.Xml</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Configuration/" class="dropdown-item">Microsoft.Extensions.Configuration</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.DependencyInjection.Extensions/" class="dropdown-item">Microsoft.Extensions.DependencyInjection.Extensions</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Microsoft.Extensions.DependencyInjection</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.FileProviders.Physical/" class="dropdown-item">Microsoft.Extensions.FileProviders.Physical</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.FileProviders/" class="dropdown-item">Microsoft.Extensions.FileProviders</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.FileSystemGlobbing.Abstractions/" class="dropdown-item">Microsoft.Extensions.FileSystemGlobbing.Abstractions</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments/" class="dropdown-item">Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts/" class="dropdown-item">Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.FileSystemGlobbing/" class="dropdown-item">Microsoft.Extensions.FileSystemGlobbing</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Hosting.Internal/" class="dropdown-item">Microsoft.Extensions.Hosting.Internal</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Hosting/" class="dropdown-item">Microsoft.Extensions.Hosting</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Http/" class="dropdown-item">Microsoft.Extensions.Http</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Logging.Abstractions/" class="dropdown-item">Microsoft.Extensions.Logging.Abstractions</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Logging.Configuration/" class="dropdown-item">Microsoft.Extensions.Logging.Configuration</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Logging.Console/" class="dropdown-item">Microsoft.Extensions.Logging.Console</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Logging.EventLog/" class="dropdown-item">Microsoft.Extensions.Logging.EventLog</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Logging.TraceSource/" class="dropdown-item">Microsoft.Extensions.Logging.TraceSource</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Logging/" class="dropdown-item">Microsoft.Extensions.Logging</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.ObjectPool/" class="dropdown-item">Microsoft.Extensions.ObjectPool</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Options/" class="dropdown-item">Microsoft.Extensions.Options</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Extensions.Primitives/" class="dropdown-item">Microsoft.Extensions.Primitives</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.JSInterop.Infrastructure/" class="dropdown-item">Microsoft.JSInterop.Infrastructure</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.JSInterop/" class="dropdown-item">Microsoft.JSInterop</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Net.Http.Headers/" class="dropdown-item">Microsoft.Net.Http.Headers</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Diagnostics.Eventing.Reader/" class="dropdown-item">System.Diagnostics.Eventing.Reader</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Security.Claims/" class="dropdown-item">System.Security.Claims</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Threading.RateLimiting/" class="dropdown-item">System.Threading.RateLimiting</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Microsoft.NETCore.App <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0/" class="dropdown-item">API Difference 6.0 vs 7.0</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_Microsoft.VisualBasic.FileIO/" class="dropdown-item">Microsoft.VisualBasic.FileIO</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_Microsoft.Win32.SafeHandles/" class="dropdown-item">Microsoft.Win32.SafeHandles</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_Microsoft.Win32/" class="dropdown-item">Microsoft.Win32</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Buffers/" class="dropdown-item">System.Buffers</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.CodeDom.Compiler/" class="dropdown-item">System.CodeDom.Compiler</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Collections.Generic/" class="dropdown-item">System.Collections.Generic</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Collections.Immutable/" class="dropdown-item">System.Collections.Immutable</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Collections.Specialized/" class="dropdown-item">System.Collections.Specialized</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Collections/" class="dropdown-item">System.Collections</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.ComponentModel.DataAnnotations/" class="dropdown-item">System.ComponentModel.DataAnnotations</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.ComponentModel.Design.Serialization/" class="dropdown-item">System.ComponentModel.Design.Serialization</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.ComponentModel/" class="dropdown-item">System.ComponentModel</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Data.Common/" class="dropdown-item">System.Data.Common</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Data.SqlTypes/" class="dropdown-item">System.Data.SqlTypes</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Data/" class="dropdown-item">System.Data</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Diagnostics.CodeAnalysis/" class="dropdown-item">System.Diagnostics.CodeAnalysis</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Diagnostics.Metrics/" class="dropdown-item">System.Diagnostics.Metrics</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Diagnostics.SymbolStore/" class="dropdown-item">System.Diagnostics.SymbolStore</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Diagnostics/" class="dropdown-item">System.Diagnostics</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Drawing/" class="dropdown-item">System.Drawing</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Formats.Asn1/" class="dropdown-item">System.Formats.Asn1</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Formats.Tar/" class="dropdown-item">System.Formats.Tar</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.IO.Compression/" class="dropdown-item">System.IO.Compression</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.IO.Pipes/" class="dropdown-item">System.IO.Pipes</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.IO/" class="dropdown-item">System.IO</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Linq/" class="dropdown-item">System.Linq</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.Http.Headers/" class="dropdown-item">System.Net.Http.Headers</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.Http.Json/" class="dropdown-item">System.Net.Http.Json</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.Http/" class="dropdown-item">System.Net.Http</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.Mail/" class="dropdown-item">System.Net.Mail</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.NetworkInformation/" class="dropdown-item">System.Net.NetworkInformation</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.Quic/" class="dropdown-item">System.Net.Quic</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.Security/" class="dropdown-item">System.Net.Security</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.Sockets/" class="dropdown-item">System.Net.Sockets</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.WebSockets/" class="dropdown-item">System.Net.WebSockets</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net/" class="dropdown-item">System.Net</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Numerics/" class="dropdown-item">System.Numerics</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Reflection.Emit/" class="dropdown-item">System.Reflection.Emit</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Reflection.Metadata.Ecma335/" class="dropdown-item">System.Reflection.Metadata.Ecma335</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Reflection.Metadata/" class="dropdown-item">System.Reflection.Metadata</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Reflection.PortableExecutable/" class="dropdown-item">System.Reflection.PortableExecutable</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Reflection/" class="dropdown-item">System.Reflection</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Resources/" class="dropdown-item">System.Resources</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.CompilerServices/" class="dropdown-item">System.Runtime.CompilerServices</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.InteropServices.ComTypes/" class="dropdown-item">System.Runtime.InteropServices.ComTypes</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.InteropServices.JavaScript/" class="dropdown-item">System.Runtime.InteropServices.JavaScript</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.InteropServices.Marshalling/" class="dropdown-item">System.Runtime.InteropServices.Marshalling</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.InteropServices/" class="dropdown-item">System.Runtime.InteropServices</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.Intrinsics.Arm/" class="dropdown-item">System.Runtime.Intrinsics.Arm</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.Intrinsics.X86/" class="dropdown-item">System.Runtime.Intrinsics.X86</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.Intrinsics/" class="dropdown-item">System.Runtime.Intrinsics</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.Serialization.DataContracts/" class="dropdown-item">System.Runtime.Serialization.DataContracts</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.Serialization.Json/" class="dropdown-item">System.Runtime.Serialization.Json</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.Serialization/" class="dropdown-item">System.Runtime.Serialization</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.Versioning/" class="dropdown-item">System.Runtime.Versioning</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime/" class="dropdown-item">System.Runtime</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Security.Authentication.ExtendedProtection/" class="dropdown-item">System.Security.Authentication.ExtendedProtection</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Security.Authentication/" class="dropdown-item">System.Security.Authentication</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Security.Cryptography.X509Certificates/" class="dropdown-item">System.Security.Cryptography.X509Certificates</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Security.Cryptography/" class="dropdown-item">System.Security.Cryptography</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Security.Policy/" class="dropdown-item">System.Security.Policy</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Security/" class="dropdown-item">System.Security</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Text.Json.Nodes/" class="dropdown-item">System.Text.Json.Nodes</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Text.Json.Serialization.Metadata/" class="dropdown-item">System.Text.Json.Serialization.Metadata</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Text.Json.Serialization/" class="dropdown-item">System.Text.Json.Serialization</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Text.Json/" class="dropdown-item">System.Text.Json</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Text.RegularExpressions/" class="dropdown-item">System.Text.RegularExpressions</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Text.Unicode/" class="dropdown-item">System.Text.Unicode</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Text/" class="dropdown-item">System.Text</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Threading.Tasks.Dataflow/" class="dropdown-item">System.Threading.Tasks.Dataflow</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Threading.Tasks/" class="dropdown-item">System.Threading.Tasks</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Threading/" class="dropdown-item">System.Threading</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Timers/" class="dropdown-item">System.Timers</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Transactions/" class="dropdown-item">System.Transactions</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Web/" class="dropdown-item">System.Web</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Xml.Linq/" class="dropdown-item">System.Xml.Linq</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Xml.Schema/" class="dropdown-item">System.Xml.Schema</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Xml.Serialization/" class="dropdown-item">System.Xml.Serialization</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Xml.XPath/" class="dropdown-item">System.Xml.XPath</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Xml.Xsl/" class="dropdown-item">System.Xml.Xsl</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Xml/" class="dropdown-item">System.Xml</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System/" class="dropdown-item">System</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Microsoft.WindowsDesktop.App <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0/" class="dropdown-item">API Difference 6.0 vs 7.0</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Diagnostics.Eventing.Reader/" class="dropdown-item">System.Diagnostics.Eventing.Reader</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Diagnostics/" class="dropdown-item">System.Diagnostics</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Drawing.Design/" class="dropdown-item">System.Drawing.Design</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Drawing.Imaging/" class="dropdown-item">System.Drawing.Imaging</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Drawing.Printing/" class="dropdown-item">System.Drawing.Printing</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Drawing/" class="dropdown-item">System.Drawing</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Resources.Tools/" class="dropdown-item">System.Resources.Tools</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Security.Cryptography.Pkcs/" class="dropdown-item">System.Security.Cryptography.Pkcs</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Security.Cryptography.X509Certificates/" class="dropdown-item">System.Security.Cryptography.X509Certificates</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Security.Permissions/" class="dropdown-item">System.Security.Permissions</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Security.Policy/" class="dropdown-item">System.Security.Policy</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Windows.Forms.Design/" class="dropdown-item">System.Windows.Forms.Design</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Windows.Forms.Layout/" class="dropdown-item">System.Windows.Forms.Layout</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Windows.Forms.PropertyGridInternal/" class="dropdown-item">System.Windows.Forms.PropertyGridInternal</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Windows.Forms/" class="dropdown-item">System.Windows.Forms</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Xaml.Permissions/" class="dropdown-item">System.Xaml.Permissions</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../7.0_Microsoft.Extensions.DependencyInjection.Extensions/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../7.0_Microsoft.Extensions.FileProviders.Physical/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#microsoftextensionsdependencyinjection" class="nav-link">Microsoft.Extensions.DependencyInjection</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="microsoftextensionsdependencyinjection">Microsoft.Extensions.DependencyInjection</h1>
+<pre><code class="language-diff"> namespace Microsoft.Extensions.DependencyInjection {
+     public static class ActivatorUtilities {
+         public static ObjectFactory CreateFactory(Type instanceType, Type[] argumentTypes);
+         public static object CreateInstance(IServiceProvider provider, Type instanceType, params object[] parameters);
+         public static object GetServiceOrCreateInstance(IServiceProvider provider, Type type);
+     }
+     public class DefaultServiceProviderFactory : IServiceProviderFactory&lt;IServiceCollection&gt;
++    public static class HttpJsonServiceExtensions {
++        public static IServiceCollection ConfigureHttpJsonOptions(this IServiceCollection services, Action&lt;JsonOptions&gt; configureOptions);
++    }
+     public class OAuthPostConfigureOptions&lt;TOptions, THandler&gt; : IPostConfigureOptions&lt;TOptions&gt; where TOptions : OAuthOptions, new() where THandler : OAuthHandler&lt;TOptions&gt; {
+-        public void PostConfigure(string name, TOptions options);
++        public void PostConfigure(string? name, TOptions options);
+     }
+     public static class OptionsBuilderConfigurationExtensions {
+         public static OptionsBuilder&lt;TOptions&gt; Bind&lt;TOptions&gt;(this OptionsBuilder&lt;TOptions&gt; optionsBuilder, IConfiguration config) where TOptions : class;
+-        public static OptionsBuilder&lt;TOptions&gt; Bind&lt;TOptions&gt;(this OptionsBuilder&lt;TOptions&gt; optionsBuilder, IConfiguration config, Action&lt;BinderOptions&gt; configureBinder) where TOptions : class;
++        public static OptionsBuilder&lt;TOptions&gt; Bind&lt;TOptions&gt;(this OptionsBuilder&lt;TOptions&gt; optionsBuilder, IConfiguration config, Action&lt;BinderOptions&gt;? configureBinder) where TOptions : class;
+-        public static OptionsBuilder&lt;TOptions&gt; BindConfiguration&lt;TOptions&gt;(this OptionsBuilder&lt;TOptions&gt; optionsBuilder, string configSectionPath, Action&lt;BinderOptions&gt; configureBinder = null) where TOptions : class;
++        public static OptionsBuilder&lt;TOptions&gt; BindConfiguration&lt;TOptions&gt;(this OptionsBuilder&lt;TOptions&gt; optionsBuilder, string configSectionPath, Action&lt;BinderOptions&gt;? configureBinder = null) where TOptions : class;
+     }
+     public static class OptionsBuilderDataAnnotationsExtensions {
+         public static OptionsBuilder&lt;TOptions&gt; ValidateDataAnnotations&lt;TOptions&gt;(this OptionsBuilder&lt;TOptions&gt; optionsBuilder) where TOptions : class;
+     }
+     public static class OptionsConfigurationServiceCollectionExtensions {
+         public static IServiceCollection Configure&lt;TOptions&gt;(this IServiceCollection services, IConfiguration config) where TOptions : class;
+-        public static IServiceCollection Configure&lt;TOptions&gt;(this IServiceCollection services, IConfiguration config, Action&lt;BinderOptions&gt; configureBinder) where TOptions : class;
++        public static IServiceCollection Configure&lt;TOptions&gt;(this IServiceCollection services, IConfiguration config, Action&lt;BinderOptions&gt;? configureBinder) where TOptions : class;
+-        public static IServiceCollection Configure&lt;TOptions&gt;(this IServiceCollection services, string name, IConfiguration config) where TOptions : class;
++        public static IServiceCollection Configure&lt;TOptions&gt;(this IServiceCollection services, string? name, IConfiguration config) where TOptions : class;
+-        public static IServiceCollection Configure&lt;TOptions&gt;(this IServiceCollection services, string name, IConfiguration config, Action&lt;BinderOptions&gt; configureBinder) where TOptions : class;
++        public static IServiceCollection Configure&lt;TOptions&gt;(this IServiceCollection services, string? name, IConfiguration config, Action&lt;BinderOptions&gt;? configureBinder) where TOptions : class;
+     }
+     public static class OptionsServiceCollectionExtensions {
+-        public static OptionsBuilder&lt;TOptions&gt; AddOptions&lt;TOptions&gt;(this IServiceCollection services, string name) where TOptions : class;
++        public static OptionsBuilder&lt;TOptions&gt; AddOptions&lt;TOptions&gt;(this IServiceCollection services, string? name) where TOptions : class;
+-        public static IServiceCollection Configure&lt;TOptions&gt;(this IServiceCollection services, string name, Action&lt;TOptions&gt; configureOptions) where TOptions : class;
++        public static IServiceCollection Configure&lt;TOptions&gt;(this IServiceCollection services, string? name, Action&lt;TOptions&gt; configureOptions) where TOptions : class;
+         public static IServiceCollection ConfigureOptions(this IServiceCollection services, Type configureType);
+-        public static IServiceCollection PostConfigure&lt;TOptions&gt;(this IServiceCollection services, string name, Action&lt;TOptions&gt; configureOptions) where TOptions : class;
++        public static IServiceCollection PostConfigure&lt;TOptions&gt;(this IServiceCollection services, string? name, Action&lt;TOptions&gt; configureOptions) where TOptions : class;
+     }
++    public static class OutputCacheConventionBuilderExtensions {
++        public static TBuilder CacheOutput&lt;TBuilder&gt;(this TBuilder builder) where TBuilder : IEndpointConventionBuilder;
++        public static TBuilder CacheOutput&lt;TBuilder&gt;(this TBuilder builder, IOutputCachePolicy policy) where TBuilder : IEndpointConventionBuilder;
++        public static TBuilder CacheOutput&lt;TBuilder&gt;(this TBuilder builder, Action&lt;OutputCachePolicyBuilder&gt; policy) where TBuilder : IEndpointConventionBuilder;
++        public static TBuilder CacheOutput&lt;TBuilder&gt;(this TBuilder builder, Action&lt;OutputCachePolicyBuilder&gt; policy, bool excludeDefaultPolicy) where TBuilder : IEndpointConventionBuilder;
++        public static TBuilder CacheOutput&lt;TBuilder&gt;(this TBuilder builder, string policyName) where TBuilder : IEndpointConventionBuilder;
++    }
++    public static class OutputCacheServiceCollectionExtensions {
++        public static IServiceCollection AddOutputCache(this IServiceCollection services);
++        public static IServiceCollection AddOutputCache(this IServiceCollection services, Action&lt;OutputCacheOptions&gt; configureOptions);
++    }
+     public static class PageConventionCollectionExtensions {
+         public static PageConventionCollection AddAreaPageRoute(this PageConventionCollection conventions, string areaName, string pageName, string route);
+         public static PageConventionCollection AddPageRoute(this PageConventionCollection conventions, string pageName, string route);
+     }
+     public static class PolicyServiceCollectionExtensions {
++        public static AuthorizationBuilder AddAuthorizationBuilder(this IServiceCollection services);
+     }
++    public static class ProblemDetailsServiceCollectionExtensions {
++        public static IServiceCollection AddProblemDetails(this IServiceCollection services);
++        public static IServiceCollection AddProblemDetails(this IServiceCollection services, Action&lt;ProblemDetailsOptions&gt;? configure);
++    }
++    public static class RequestDecompressionServiceExtensions {
++        public static IServiceCollection AddRequestDecompression(this IServiceCollection services);
++        public static IServiceCollection AddRequestDecompression(this IServiceCollection services, Action&lt;RequestDecompressionOptions&gt; configureOptions);
++    }
+     public class ServiceCollection : ICollection&lt;ServiceDescriptor&gt;, IEnumerable, IEnumerable&lt;ServiceDescriptor&gt;, IList&lt;ServiceDescriptor&gt;, IServiceCollection {
++        public void MakeReadOnly();
+     }
+     public static class ServiceCollectionContainerBuilderExtensions {
+         public static ServiceProvider BuildServiceProvider(this IServiceCollection services);
+         public static ServiceProvider BuildServiceProvider(this IServiceCollection services, ServiceProviderOptions options);
+         public static ServiceProvider BuildServiceProvider(this IServiceCollection services, bool validateScopes);
+     }
+     public static class ServiceCollectionServiceExtensions {
+         public static IServiceCollection AddScoped(this IServiceCollection services, Type serviceType);
+         public static IServiceCollection AddScoped(this IServiceCollection services, Type serviceType, Type implementationType);
+         public static IServiceCollection AddSingleton(this IServiceCollection services, Type serviceType);
+         public static IServiceCollection AddSingleton(this IServiceCollection services, Type serviceType, Type implementationType);
+         public static IServiceCollection AddTransient(this IServiceCollection services, Type serviceType);
+         public static IServiceCollection AddTransient(this IServiceCollection services, Type serviceType, Type implementationType);
+     }
+     public class ServiceDescriptor {
+         public ServiceDescriptor(Type serviceType, Type implementationType, ServiceLifetime lifetime);
+         public Type? ImplementationType { get; }
+         public static ServiceDescriptor Describe(Type serviceType, Type implementationType, ServiceLifetime lifetime);
+         public static ServiceDescriptor Scoped(Type service, Type implementationType);
+         public static ServiceDescriptor Singleton(Type service, Type implementationType);
+         public static ServiceDescriptor Transient(Type service, Type implementationType);
+     }
+     public sealed class ServiceProvider : IAsyncDisposable, IDisposable, IServiceProvider {
+-        public object GetService(Type serviceType);
++        public object? GetService(Type serviceType);
+     }
+     public static class ServiceProviderServiceExtensions {
+         public static IEnumerable&lt;object?&gt; GetServices(this IServiceProvider provider, Type serviceType);
+     }
+ }
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

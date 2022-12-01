@@ -1,0 +1,18 @@
+site_name: API Diff between .NET 6 and .NET 7
+# site_url: https://example.com/dotnet-api-diff/
+#theme:
+#    name: material
+#    markdown_extensions:
+#      - pymdownx.highlight:
+#          anchor_linenums: true
+#      - pymdownx.inlinehilite
+#      - pymdownx.snippets
+#      - pymdownx.superfences
+#    plugins:
+#      - offline
+theme:
+    name: mkdocs
+    highlightjs: true
+    hljs_languages:
+      - diff
+      - csharp

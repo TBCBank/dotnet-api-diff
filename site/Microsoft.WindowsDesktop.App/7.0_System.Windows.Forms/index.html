@@ -1,0 +1,2148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>System.Windows.Forms - API Diff between .NET 6 and .NET 7</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/diff.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/csharp.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">API Diff between .NET 6 and .NET 7</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">.NET 7.0   API Changes</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Microsoft.AspNetCore.App <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0/" class="dropdown-item">API Difference 6.0 vs 7.0</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Authentication.Cookies/" class="dropdown-item">Microsoft.AspNetCore.Authentication.Cookies</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Authentication/" class="dropdown-item">Microsoft.AspNetCore.Authentication</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Authorization.Infrastructure/" class="dropdown-item">Microsoft.AspNetCore.Authorization.Infrastructure</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Authorization.Policy/" class="dropdown-item">Microsoft.AspNetCore.Authorization.Policy</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Authorization/" class="dropdown-item">Microsoft.AspNetCore.Authorization</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Builder/" class="dropdown-item">Microsoft.AspNetCore.Builder</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Components.CompilerServices/" class="dropdown-item">Microsoft.AspNetCore.Components.CompilerServices</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Components.Forms/" class="dropdown-item">Microsoft.AspNetCore.Components.Forms</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Components.RenderTree/" class="dropdown-item">Microsoft.AspNetCore.Components.RenderTree</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Components.Rendering/" class="dropdown-item">Microsoft.AspNetCore.Components.Rendering</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Components.Routing/" class="dropdown-item">Microsoft.AspNetCore.Components.Routing</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Components.Web.Virtualization/" class="dropdown-item">Microsoft.AspNetCore.Components.Web.Virtualization</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Components.Web/" class="dropdown-item">Microsoft.AspNetCore.Components.Web</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Components/" class="dropdown-item">Microsoft.AspNetCore.Components</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Connections.Features/" class="dropdown-item">Microsoft.AspNetCore.Connections.Features</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Connections/" class="dropdown-item">Microsoft.AspNetCore.Connections</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel/" class="dropdown-item">Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.DataProtection.Internal/" class="dropdown-item">Microsoft.AspNetCore.DataProtection.Internal</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Diagnostics/" class="dropdown-item">Microsoft.AspNetCore.Diagnostics</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Hosting/" class="dropdown-item">Microsoft.AspNetCore.Hosting</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Http.Features/" class="dropdown-item">Microsoft.AspNetCore.Http.Features</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Http.HttpResults/" class="dropdown-item">Microsoft.AspNetCore.Http.HttpResults</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Http.Metadata/" class="dropdown-item">Microsoft.AspNetCore.Http.Metadata</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Http/" class="dropdown-item">Microsoft.AspNetCore.Http</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.HttpLogging/" class="dropdown-item">Microsoft.AspNetCore.HttpLogging</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Identity/" class="dropdown-item">Microsoft.AspNetCore.Identity</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.ApplicationModels/" class="dropdown-item">Microsoft.AspNetCore.Mvc.ApplicationModels</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.Infrastructure/" class="dropdown-item">Microsoft.AspNetCore.Mvc.Infrastructure</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.ModelBinding.Binders/" class="dropdown-item">Microsoft.AspNetCore.Mvc.ModelBinding.Binders</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.ModelBinding.Metadata/" class="dropdown-item">Microsoft.AspNetCore.Mvc.ModelBinding.Metadata</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.ModelBinding/" class="dropdown-item">Microsoft.AspNetCore.Mvc.ModelBinding</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.RazorPages/" class="dropdown-item">Microsoft.AspNetCore.Mvc.RazorPages</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.Rendering/" class="dropdown-item">Microsoft.AspNetCore.Mvc.Rendering</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.Routing/" class="dropdown-item">Microsoft.AspNetCore.Mvc.Routing</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.ViewFeatures/" class="dropdown-item">Microsoft.AspNetCore.Mvc.ViewFeatures</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc/" class="dropdown-item">Microsoft.AspNetCore.Mvc</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.OutputCaching/" class="dropdown-item">Microsoft.AspNetCore.OutputCaching</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.RateLimiting/" class="dropdown-item">Microsoft.AspNetCore.RateLimiting</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.RequestDecompression/" class="dropdown-item">Microsoft.AspNetCore.RequestDecompression</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.ResponseCompression/" class="dropdown-item">Microsoft.AspNetCore.ResponseCompression</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Routing.Patterns/" class="dropdown-item">Microsoft.AspNetCore.Routing.Patterns</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Routing/" class="dropdown-item">Microsoft.AspNetCore.Routing</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Server.IIS.Core/" class="dropdown-item">Microsoft.AspNetCore.Server.IIS.Core</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Server.Kestrel.Core/" class="dropdown-item">Microsoft.AspNetCore.Server.Kestrel.Core</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Server.Kestrel.Https/" class="dropdown-item">Microsoft.AspNetCore.Server.Kestrel.Https</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Server.Kestrel.Transport.Quic/" class="dropdown-item">Microsoft.AspNetCore.Server.Kestrel.Transport.Quic</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.SignalR.Protocol/" class="dropdown-item">Microsoft.AspNetCore.SignalR.Protocol</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.SignalR/" class="dropdown-item">Microsoft.AspNetCore.SignalR</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.WebUtilities/" class="dropdown-item">Microsoft.AspNetCore.WebUtilities</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Caching.Distributed/" class="dropdown-item">Microsoft.Extensions.Caching.Distributed</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Caching.Memory/" class="dropdown-item">Microsoft.Extensions.Caching.Memory</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Configuration.CommandLine/" class="dropdown-item">Microsoft.Extensions.Configuration.CommandLine</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Configuration.EnvironmentVariables/" class="dropdown-item">Microsoft.Extensions.Configuration.EnvironmentVariables</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Configuration.Ini/" class="dropdown-item">Microsoft.Extensions.Configuration.Ini</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Configuration.Memory/" class="dropdown-item">Microsoft.Extensions.Configuration.Memory</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Configuration.Xml/" class="dropdown-item">Microsoft.Extensions.Configuration.Xml</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Configuration/" class="dropdown-item">Microsoft.Extensions.Configuration</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.DependencyInjection.Extensions/" class="dropdown-item">Microsoft.Extensions.DependencyInjection.Extensions</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.DependencyInjection/" class="dropdown-item">Microsoft.Extensions.DependencyInjection</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.FileProviders.Physical/" class="dropdown-item">Microsoft.Extensions.FileProviders.Physical</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.FileProviders/" class="dropdown-item">Microsoft.Extensions.FileProviders</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.FileSystemGlobbing.Abstractions/" class="dropdown-item">Microsoft.Extensions.FileSystemGlobbing.Abstractions</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments/" class="dropdown-item">Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts/" class="dropdown-item">Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.FileSystemGlobbing/" class="dropdown-item">Microsoft.Extensions.FileSystemGlobbing</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Hosting.Internal/" class="dropdown-item">Microsoft.Extensions.Hosting.Internal</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Hosting/" class="dropdown-item">Microsoft.Extensions.Hosting</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Http/" class="dropdown-item">Microsoft.Extensions.Http</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Logging.Abstractions/" class="dropdown-item">Microsoft.Extensions.Logging.Abstractions</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Logging.Configuration/" class="dropdown-item">Microsoft.Extensions.Logging.Configuration</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Logging.Console/" class="dropdown-item">Microsoft.Extensions.Logging.Console</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Logging.EventLog/" class="dropdown-item">Microsoft.Extensions.Logging.EventLog</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Logging.TraceSource/" class="dropdown-item">Microsoft.Extensions.Logging.TraceSource</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Logging/" class="dropdown-item">Microsoft.Extensions.Logging</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.ObjectPool/" class="dropdown-item">Microsoft.Extensions.ObjectPool</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Options/" class="dropdown-item">Microsoft.Extensions.Options</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Primitives/" class="dropdown-item">Microsoft.Extensions.Primitives</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.JSInterop.Infrastructure/" class="dropdown-item">Microsoft.JSInterop.Infrastructure</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.JSInterop/" class="dropdown-item">Microsoft.JSInterop</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Net.Http.Headers/" class="dropdown-item">Microsoft.Net.Http.Headers</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_System.Diagnostics.Eventing.Reader/" class="dropdown-item">System.Diagnostics.Eventing.Reader</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_System.Security.Claims/" class="dropdown-item">System.Security.Claims</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_System.Threading.RateLimiting/" class="dropdown-item">System.Threading.RateLimiting</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Microsoft.NETCore.App <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0/" class="dropdown-item">API Difference 6.0 vs 7.0</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_Microsoft.VisualBasic.FileIO/" class="dropdown-item">Microsoft.VisualBasic.FileIO</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_Microsoft.Win32.SafeHandles/" class="dropdown-item">Microsoft.Win32.SafeHandles</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_Microsoft.Win32/" class="dropdown-item">Microsoft.Win32</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Buffers/" class="dropdown-item">System.Buffers</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.CodeDom.Compiler/" class="dropdown-item">System.CodeDom.Compiler</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Collections.Generic/" class="dropdown-item">System.Collections.Generic</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Collections.Immutable/" class="dropdown-item">System.Collections.Immutable</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Collections.Specialized/" class="dropdown-item">System.Collections.Specialized</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Collections/" class="dropdown-item">System.Collections</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.ComponentModel.DataAnnotations/" class="dropdown-item">System.ComponentModel.DataAnnotations</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.ComponentModel.Design.Serialization/" class="dropdown-item">System.ComponentModel.Design.Serialization</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.ComponentModel/" class="dropdown-item">System.ComponentModel</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Data.Common/" class="dropdown-item">System.Data.Common</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Data.SqlTypes/" class="dropdown-item">System.Data.SqlTypes</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Data/" class="dropdown-item">System.Data</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Diagnostics.CodeAnalysis/" class="dropdown-item">System.Diagnostics.CodeAnalysis</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Diagnostics.Metrics/" class="dropdown-item">System.Diagnostics.Metrics</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Diagnostics.SymbolStore/" class="dropdown-item">System.Diagnostics.SymbolStore</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Diagnostics/" class="dropdown-item">System.Diagnostics</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Drawing/" class="dropdown-item">System.Drawing</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Formats.Asn1/" class="dropdown-item">System.Formats.Asn1</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Formats.Tar/" class="dropdown-item">System.Formats.Tar</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.IO.Compression/" class="dropdown-item">System.IO.Compression</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.IO.Pipes/" class="dropdown-item">System.IO.Pipes</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.IO/" class="dropdown-item">System.IO</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Linq/" class="dropdown-item">System.Linq</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.Http.Headers/" class="dropdown-item">System.Net.Http.Headers</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.Http.Json/" class="dropdown-item">System.Net.Http.Json</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.Http/" class="dropdown-item">System.Net.Http</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.Mail/" class="dropdown-item">System.Net.Mail</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.NetworkInformation/" class="dropdown-item">System.Net.NetworkInformation</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.Quic/" class="dropdown-item">System.Net.Quic</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.Security/" class="dropdown-item">System.Net.Security</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.Sockets/" class="dropdown-item">System.Net.Sockets</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net.WebSockets/" class="dropdown-item">System.Net.WebSockets</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Net/" class="dropdown-item">System.Net</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Numerics/" class="dropdown-item">System.Numerics</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Reflection.Emit/" class="dropdown-item">System.Reflection.Emit</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Reflection.Metadata.Ecma335/" class="dropdown-item">System.Reflection.Metadata.Ecma335</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Reflection.Metadata/" class="dropdown-item">System.Reflection.Metadata</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Reflection.PortableExecutable/" class="dropdown-item">System.Reflection.PortableExecutable</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Reflection/" class="dropdown-item">System.Reflection</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Resources/" class="dropdown-item">System.Resources</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.CompilerServices/" class="dropdown-item">System.Runtime.CompilerServices</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.InteropServices.ComTypes/" class="dropdown-item">System.Runtime.InteropServices.ComTypes</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.InteropServices.JavaScript/" class="dropdown-item">System.Runtime.InteropServices.JavaScript</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.InteropServices.Marshalling/" class="dropdown-item">System.Runtime.InteropServices.Marshalling</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.InteropServices/" class="dropdown-item">System.Runtime.InteropServices</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.Intrinsics.Arm/" class="dropdown-item">System.Runtime.Intrinsics.Arm</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.Intrinsics.X86/" class="dropdown-item">System.Runtime.Intrinsics.X86</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.Intrinsics/" class="dropdown-item">System.Runtime.Intrinsics</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.Serialization.DataContracts/" class="dropdown-item">System.Runtime.Serialization.DataContracts</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.Serialization.Json/" class="dropdown-item">System.Runtime.Serialization.Json</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.Serialization/" class="dropdown-item">System.Runtime.Serialization</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime.Versioning/" class="dropdown-item">System.Runtime.Versioning</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Runtime/" class="dropdown-item">System.Runtime</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Security.Authentication.ExtendedProtection/" class="dropdown-item">System.Security.Authentication.ExtendedProtection</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Security.Authentication/" class="dropdown-item">System.Security.Authentication</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Security.Cryptography.X509Certificates/" class="dropdown-item">System.Security.Cryptography.X509Certificates</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Security.Cryptography/" class="dropdown-item">System.Security.Cryptography</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Security.Policy/" class="dropdown-item">System.Security.Policy</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Security/" class="dropdown-item">System.Security</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Text.Json.Nodes/" class="dropdown-item">System.Text.Json.Nodes</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Text.Json.Serialization.Metadata/" class="dropdown-item">System.Text.Json.Serialization.Metadata</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Text.Json.Serialization/" class="dropdown-item">System.Text.Json.Serialization</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Text.Json/" class="dropdown-item">System.Text.Json</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Text.RegularExpressions/" class="dropdown-item">System.Text.RegularExpressions</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Text.Unicode/" class="dropdown-item">System.Text.Unicode</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Text/" class="dropdown-item">System.Text</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Threading.Tasks.Dataflow/" class="dropdown-item">System.Threading.Tasks.Dataflow</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Threading.Tasks/" class="dropdown-item">System.Threading.Tasks</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Threading/" class="dropdown-item">System.Threading</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Timers/" class="dropdown-item">System.Timers</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Transactions/" class="dropdown-item">System.Transactions</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Web/" class="dropdown-item">System.Web</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Xml.Linq/" class="dropdown-item">System.Xml.Linq</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Xml.Schema/" class="dropdown-item">System.Xml.Schema</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Xml.Serialization/" class="dropdown-item">System.Xml.Serialization</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Xml.XPath/" class="dropdown-item">System.Xml.XPath</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Xml.Xsl/" class="dropdown-item">System.Xml.Xsl</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System.Xml/" class="dropdown-item">System.Xml</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.NETCore.App/7.0_System/" class="dropdown-item">System</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Microsoft.WindowsDesktop.App <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../7.0/" class="dropdown-item">API Difference 6.0 vs 7.0</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Diagnostics.Eventing.Reader/" class="dropdown-item">System.Diagnostics.Eventing.Reader</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Diagnostics/" class="dropdown-item">System.Diagnostics</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Drawing.Design/" class="dropdown-item">System.Drawing.Design</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Drawing.Imaging/" class="dropdown-item">System.Drawing.Imaging</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Drawing.Printing/" class="dropdown-item">System.Drawing.Printing</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Drawing/" class="dropdown-item">System.Drawing</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Resources.Tools/" class="dropdown-item">System.Resources.Tools</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Security.Cryptography.Pkcs/" class="dropdown-item">System.Security.Cryptography.Pkcs</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Security.Cryptography.X509Certificates/" class="dropdown-item">System.Security.Cryptography.X509Certificates</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Security.Permissions/" class="dropdown-item">System.Security.Permissions</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Security.Policy/" class="dropdown-item">System.Security.Policy</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Windows.Forms.Design/" class="dropdown-item">System.Windows.Forms.Design</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Windows.Forms.Layout/" class="dropdown-item">System.Windows.Forms.Layout</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Windows.Forms.PropertyGridInternal/" class="dropdown-item">System.Windows.Forms.PropertyGridInternal</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">System.Windows.Forms</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Xaml.Permissions/" class="dropdown-item">System.Xaml.Permissions</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../7.0_System.Windows.Forms.PropertyGridInternal/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../7.0_System.Xaml.Permissions/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#systemwindowsforms" class="nav-link">System.Windows.Forms</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="systemwindowsforms">System.Windows.Forms</h1>
+<pre><code class="language-diff"> namespace System.Windows.Forms {
+     public class AccessibleObject : StandardOleMarshalObject, IAccessible, Interop.Ole32.IOleWindow, Interop.Ole32.IServiceProvider, Interop.Oleaut32.IEnumVariant, Interop.UiaCore.IAccessibleEx, Interop.UiaCore.IExpandCollapseProvider, Interop.UiaCore.IGridItemProvider, Interop.UiaCore.IGridProvider, Interop.UiaCore.IInvokeProvider, Interop.UiaCore.ILegacyIAccessibleProvider, Interop.UiaCore.IMultipleViewProvider, Interop.UiaCore.IRangeValueProvider, Interop.UiaCore.IRawElementProviderFragment, Interop.UiaCore.IRawElementProviderFragmentRoot, Interop.UiaCore.IRawElementProviderHwndOverride, Interop.UiaCore.IRawElementProviderSimple, Interop.UiaCore.IScrollItemProvider, Interop.UiaCore.ISelectionItemProvider, Interop.UiaCore.ISelectionProvider, Interop.UiaCore.ITableItemProvider, Interop.UiaCore.ITableProvider, Interop.UiaCore.ITextProvider, Interop.UiaCore.ITextProvider2, Interop.UiaCore.IToggleProvider, Interop.UiaCore.IValueProvider, IReflect {
+         FieldInfo? IReflect.GetField(string name, BindingFlags bindingAttr);
+         FieldInfo[] IReflect.GetFields(BindingFlags bindingAttr);
+         MemberInfo[] IReflect.GetMember(string name, BindingFlags bindingAttr);
+         MemberInfo[] IReflect.GetMembers(BindingFlags bindingAttr);
+         MethodInfo? IReflect.GetMethod(string name, BindingFlags bindingAttr);
+         MethodInfo IReflect.GetMethod(string name, BindingFlags bindingAttr, Binder binder, Type[] types, ParameterModifier[] modifiers);
+         MethodInfo[] IReflect.GetMethods(BindingFlags bindingAttr);
+         PropertyInfo[] IReflect.GetProperties(BindingFlags bindingAttr);
+         PropertyInfo? IReflect.GetProperty(string name, BindingFlags bindingAttr);
+         PropertyInfo IReflect.GetProperty(string name, BindingFlags bindingAttr, Binder binder, Type returnType, Type[] types, ParameterModifier[] modifiers);
+         object IReflect.InvokeMember(string name, BindingFlags invokeAttr, Binder binder, object target, object[] args, ParameterModifier[] modifiers, CultureInfo culture, string[]? namedParameters);
+     }
+     public abstract class AxHost : Control, ICustomTypeDescriptor, ISupportInitialize {
+         TypeConverter ICustomTypeDescriptor.GetConverter();
+         EventDescriptor ICustomTypeDescriptor.GetDefaultEvent();
+         PropertyDescriptor ICustomTypeDescriptor.GetDefaultProperty();
+         object ICustomTypeDescriptor.GetEditor(Type editorBaseType);
+         EventDescriptorCollection ICustomTypeDescriptor.GetEvents(Attribute[] attributes);
+         PropertyDescriptorCollection ICustomTypeDescriptor.GetProperties();
+         PropertyDescriptorCollection ICustomTypeDescriptor.GetProperties(Attribute[] attributes);
+         public class AxComponentEditor : WindowsFormsComponentEditor {
+-            public override bool EditComponent(ITypeDescriptorContext context, object obj, IWin32Window parent);
++            public override bool EditComponent(ITypeDescriptorContext? context, object obj, IWin32Window? parent);
+         }
+         public sealed class ClsidAttribute : Attribute {
+             public string Value { get; }
+         }
+         public class State : ISerializable {
+-            public State(Stream ms, int storageType, bool manualUpdate, string licKey);
++            public State(Stream ms, int storageType, bool manualUpdate, string? licKey);
+         }
+         public class StateConverter : TypeConverter {
+-            public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType);
++            public override bool CanConvertFrom(ITypeDescriptorContext? context, Type sourceType);
+         }
+         public sealed class TypeLibraryTimeStampAttribute : Attribute {
+             public DateTime Value { get; }
+         }
+     }
++    public abstract class BindableComponent : Component, IBindableComponent, IComponent, IDisposable {
++        protected BindableComponent();
++        public BindingContext? BindingContext { get; set; }
++        public ControlBindingsCollection DataBindings { get; }
++        public event EventHandler BindingContextChanged;
++        protected virtual void OnBindingContextChanged(EventArgs e);
++    }
+     public abstract class BindingManagerBase {
+-        protected EventHandler onCurrentChangedHandler;
++        protected EventHandler? onCurrentChangedHandler;
+-        protected EventHandler onPositionChangedHandler;
++        protected EventHandler? onPositionChangedHandler;
+-        protected internal virtual PropertyDescriptorCollection GetItemProperties(ArrayList dataSources, ArrayList listAccessors);
++        protected internal virtual PropertyDescriptorCollection? GetItemProperties(ArrayList dataSources, ArrayList listAccessors);
+-        protected virtual PropertyDescriptorCollection GetItemProperties(Type listType, int offset, ArrayList dataSources, ArrayList listAccessors);
++        protected virtual PropertyDescriptorCollection? GetItemProperties(Type listType, int offset, ArrayList dataSources, ArrayList listAccessors);
+-        protected internal abstract string GetListName(ArrayList listAccessors);
++        protected internal abstract string GetListName(ArrayList? listAccessors);
+     }
+-    public struct BindingMemberInfo {
++    public struct BindingMemberInfo : IEquatable&lt;BindingMemberInfo&gt; {
++        public bool Equals(BindingMemberInfo other);
+     }
+     public class BindingSource : Component, IBindingList, IBindingListView, ICancelAddNew, ICollection, ICurrencyManagerProvider, IEnumerable, IList, ISupportInitialize, ISupportInitializeNotification, ITypedList {
+         public virtual string Filter { get; set; }
+     }
+     public class Button : ButtonBase, IButtonControl {
+-        public new event EventHandler DoubleClick;
++        public new event EventHandler? DoubleClick;
+-        public new event MouseEventHandler MouseDoubleClick;
++        public new event MouseEventHandler? MouseDoubleClick;
+     }
+     public abstract class ButtonBase : Control {
++        public ICommand? Command { get; set; }
++        public object? CommandParameter { get; set; }
+-        public Image Image { get; set; }
++        public Image? Image { get; set; }
+-        public ImageList ImageList { get; set; }
++        public ImageList? ImageList { get; set; }
+         public override string Text { get; set; }
+-        public new event EventHandler AutoSizeChanged;
++        public new event EventHandler? AutoSizeChanged;
++        public event EventHandler? CommandCanExecuteChanged;
++        public event EventHandler? CommandChanged;
++        public event EventHandler? CommandParameterChanged;
+-        public new event EventHandler ImeModeChanged;
++        public new event EventHandler? ImeModeChanged;
++        protected override void OnClick(EventArgs e);
++        protected virtual void OnCommandCanExecuteChanged(EventArgs e);
++        protected virtual void OnCommandChanged(EventArgs e);
++        protected virtual void OnCommandParameterChanged(EventArgs e);
++        protected virtual void OnRequestCommandExecute(EventArgs e);
+     }
+     public static class ButtonRenderer {
+-        public static void DrawButton(Graphics g, Rectangle bounds, string buttonText, Font font, bool focused, PushButtonState state);
++        public static void DrawButton(Graphics g, Rectangle bounds, string? buttonText, Font? font, bool focused, PushButtonState state);
+-        public static void DrawButton(Graphics g, Rectangle bounds, string buttonText, Font font, Image image, Rectangle imageBounds, bool focused, PushButtonState state);
++        public static void DrawButton(Graphics g, Rectangle bounds, string? buttonText, Font? font, Image image, Rectangle imageBounds, bool focused, PushButtonState state);
+-        public static void DrawButton(Graphics g, Rectangle bounds, string buttonText, Font font, TextFormatFlags flags, bool focused, PushButtonState state);
++        public static void DrawButton(Graphics g, Rectangle bounds, string? buttonText, Font? font, TextFormatFlags flags, bool focused, PushButtonState state);
+-        public static void DrawButton(Graphics g, Rectangle bounds, string buttonText, Font font, TextFormatFlags flags, Image image, Rectangle imageBounds, bool focused, PushButtonState state);
++        public static void DrawButton(Graphics g, Rectangle bounds, string? buttonText, Font? font, TextFormatFlags flags, Image image, Rectangle imageBounds, bool focused, PushButtonState state);
+     }
+     public class CheckBox : ButtonBase {
+-        public event EventHandler AppearanceChanged;
++        public event EventHandler? AppearanceChanged;
+-        public event EventHandler CheckedChanged;
++        public event EventHandler? CheckedChanged;
+-        public event EventHandler CheckStateChanged;
++        public event EventHandler? CheckStateChanged;
+-        public new event EventHandler DoubleClick;
++        public new event EventHandler? DoubleClick;
+-        public new event MouseEventHandler MouseDoubleClick;
++        public new event MouseEventHandler? MouseDoubleClick;
+     }
+     public static class CheckBoxRenderer {
+-        public static void DrawCheckBox(Graphics g, Point glyphLocation, Rectangle textBounds, string checkBoxText, Font font, bool focused, CheckBoxState state);
++        public static void DrawCheckBox(Graphics g, Point glyphLocation, Rectangle textBounds, string? checkBoxText, Font? font, bool focused, CheckBoxState state);
+-        public static void DrawCheckBox(Graphics g, Point glyphLocation, Rectangle textBounds, string checkBoxText, Font font, Image image, Rectangle imageBounds, bool focused, CheckBoxState state);
++        public static void DrawCheckBox(Graphics g, Point glyphLocation, Rectangle textBounds, string? checkBoxText, Font? font, Image image, Rectangle imageBounds, bool focused, CheckBoxState state);
+-        public static void DrawCheckBox(Graphics g, Point glyphLocation, Rectangle textBounds, string checkBoxText, Font font, TextFormatFlags flags, bool focused, CheckBoxState state);
++        public static void DrawCheckBox(Graphics g, Point glyphLocation, Rectangle textBounds, string? checkBoxText, Font? font, TextFormatFlags flags, bool focused, CheckBoxState state);
+-        public static void DrawCheckBox(Graphics g, Point glyphLocation, Rectangle textBounds, string checkBoxText, Font font, TextFormatFlags flags, Image image, Rectangle imageBounds, bool focused, CheckBoxState state);
++        public static void DrawCheckBox(Graphics g, Point glyphLocation, Rectangle textBounds, string? checkBoxText, Font? font, TextFormatFlags flags, Image image, Rectangle imageBounds, bool focused, CheckBoxState state);
+     }
+     public class CheckedListBox : ListBox {
+-        public new object DataSource { get; set; }
++        public new object? DataSource { get; set; }
+-        public new event EventHandler Click;
++        public new event EventHandler? Click;
+-        public new event EventHandler DataSourceChanged;
++        public new event EventHandler? DataSourceChanged;
+-        public new event EventHandler DisplayMemberChanged;
++        public new event EventHandler? DisplayMemberChanged;
+-        public new event DrawItemEventHandler DrawItem;
++        public new event DrawItemEventHandler? DrawItem;
+-        public event ItemCheckEventHandler ItemCheck;
++        public event ItemCheckEventHandler? ItemCheck;
+-        public new event MeasureItemEventHandler MeasureItem;
++        public new event MeasureItemEventHandler? MeasureItem;
+-        public new event MouseEventHandler MouseClick;
++        public new event MouseEventHandler? MouseClick;
+-        public new event EventHandler ValueMemberChanged;
++        public new event EventHandler? ValueMemberChanged;
+         public class CheckedIndexCollection : ICollection, IEnumerable, IList {
+-            bool System.Collections.ICollection.IsSynchronized { get; }
++            bool ICollection.IsSynchronized { get; }
+-            object System.Collections.ICollection.SyncRoot { get; }
++            object ICollection.SyncRoot { get; }
+-            bool System.Collections.IList.IsFixedSize { get; }
++            bool IList.IsFixedSize { get; }
+-            object System.Collections.IList.this[int index] { get; set; }
++            object? IList.this[int index] { get; set; }
+-            int IList.Add(object value);
++            int IList.Add(object? value);
+-            bool IList.Contains(object index);
++            bool IList.Contains(object? index);
+-            int IList.IndexOf(object index);
++            int IList.IndexOf(object? index);
+-            void IList.Insert(int index, object value);
++            void IList.Insert(int index, object? value);
+-            void IList.Remove(object value);
++            void IList.Remove(object? value);
+         }
+         public class CheckedItemCollection : ICollection, IEnumerable, IList {
+-            bool System.Collections.ICollection.IsSynchronized { get; }
++            bool ICollection.IsSynchronized { get; }
+-            object System.Collections.ICollection.SyncRoot { get; }
++            object ICollection.SyncRoot { get; }
+-            bool System.Collections.IList.IsFixedSize { get; }
++            bool IList.IsFixedSize { get; }
+-            public object this[int index] { get; set; }
++            public object? this[int index] { get; set; }
+-            public bool Contains(object item);
++            public bool Contains(object? item);
+-            public int IndexOf(object item);
++            public int IndexOf(object? item);
+-            int IList.Add(object value);
++            int IList.Add(object? value);
+-            void IList.Insert(int index, object value);
++            void IList.Insert(int index, object? value);
+-            void IList.Remove(object value);
++            void IList.Remove(object? value);
+         }
+     }
+     public static class Clipboard {
+-        public static bool ContainsData(string format);
++        public static bool ContainsData(string? format);
+-        public static Stream GetAudioStream();
++        public static Stream? GetAudioStream();
+-        public static object GetData(string format);
++        public static object? GetData(string format);
+-        public static IDataObject GetDataObject();
++        public static IDataObject? GetDataObject();
+-        public static Image GetImage();
++        public static Image? GetImage();
+     }
+     public class ColorDialog : CommonDialog {
+         public int[] CustomColors { get; set; }
+     }
+     public class ColumnHeader : Component, ICloneable {
+         public string Text { get; set; }
+     }
+     public class ComboBox : ListControl {
+         public class ChildAccessibleObject : AccessibleObject {
+-            public override string Name { get; }
++            public override string? Name { get; }
+         }
+     }
+     public static class ComboBoxRenderer {
+-        public static void DrawTextBox(Graphics g, Rectangle bounds, string comboBoxText, Font font, Rectangle textBounds, TextFormatFlags flags, ComboBoxState state);
++        public static void DrawTextBox(Graphics g, Rectangle bounds, string? comboBoxText, Font? font, Rectangle textBounds, TextFormatFlags flags, ComboBoxState state);
+-        public static void DrawTextBox(Graphics g, Rectangle bounds, string comboBoxText, Font font, Rectangle textBounds, ComboBoxState state);
++        public static void DrawTextBox(Graphics g, Rectangle bounds, string? comboBoxText, Font? font, Rectangle textBounds, ComboBoxState state);
+-        public static void DrawTextBox(Graphics g, Rectangle bounds, string comboBoxText, Font font, TextFormatFlags flags, ComboBoxState state);
++        public static void DrawTextBox(Graphics g, Rectangle bounds, string? comboBoxText, Font? font, TextFormatFlags flags, ComboBoxState state);
+-        public static void DrawTextBox(Graphics g, Rectangle bounds, string comboBoxText, Font font, ComboBoxState state);
++        public static void DrawTextBox(Graphics g, Rectangle bounds, string? comboBoxText, Font? font, ComboBoxState state);
+     }
+     public class ContainerControl : ScrollableControl, IContainerControl {
+-        public Control ActiveControl { get; set; }
++        public Control? ActiveControl { get; set; }
+-        public override BindingContext BindingContext { get; set; }
++        public override BindingContext? BindingContext { get; set; }
+-        public Form ParentForm { get; }
++        public Form? ParentForm { get; }
+-        public event EventHandler AutoValidateChanged;
++        public event EventHandler? AutoValidateChanged;
++        protected override void OnMove(EventArgs e);
++        protected override void OnResize(EventArgs e);
++        protected virtual void ScaleMinMaxSize(float xScaleFactor, float yScaleFactor, bool updateContainerSize = true);
+     }
+     public class ContextMenuStrip : ToolStripDropDownMenu {
+-        public Control SourceControl { get; }
++        public Control? SourceControl { get; }
+     }
+     public class Control : Component, IArrangedElement, IBindableComponent, IComponent, IDisposable, IDropTarget, IHandle, IKeyboardToolTip, Interop.Ole32.IOleControl, Interop.Ole32.IOleInPlaceActiveObject, Interop.Ole32.IOleInPlaceObject, Interop.Ole32.IOleObject, Interop.Ole32.IOleWindow, Interop.Ole32.IPersist, Interop.Ole32.IPersistStorage, Interop.Ole32.IPersistStreamInit, Interop.Ole32.IQuickActivate, Interop.Ole32.IViewObject, Interop.Ole32.IViewObject2, Interop.Oleaut32.IPersistPropertyBag, ISupportOleDropSource, ISynchronizeInvoke, IWin32Window {
+         public virtual Cursor Cursor { get; set; }
++        public virtual object DataContext { get; set; }
+         public virtual Font Font { get; set; }
+         public string Name { get; set; }
+         public virtual string Text { get; set; }
++        public event EventHandler DataContextChanged;
+-        public IAsyncResult BeginInvoke(Delegate method, params object[] args);
++        public IAsyncResult BeginInvoke(Delegate method, params object?[]? args);
++        public DragDropEffects DoDragDrop(object data, DragDropEffects allowedEffects, Bitmap? dragImage, Point cursorOffset, bool useDefaultDragImage);
+-        public object EndInvoke(IAsyncResult asyncResult);
++        public object? EndInvoke(IAsyncResult asyncResult);
+-        public object Invoke(Delegate method, params object[] args);
++        public object Invoke(Delegate method, params object?[]? args);
++        protected virtual void OnDataContextChanged(EventArgs e);
++        protected virtual void OnParentDataContextChanged(EventArgs e);
+         public class ControlCollection : ArrangedElementCollection, ICloneable, ICollection, IEnumerable, IList {
+-            public virtual Control this[string key] { get; }
++            public virtual Control? this[string? key] { get; }
+-            public virtual void Add(Control value);
++            public virtual void Add(Control? value);
+-            public bool Contains(Control control);
++            public bool Contains(Control? control);
+-            public virtual bool ContainsKey(string key);
++            public virtual bool ContainsKey(string? key);
+-            public int IndexOf(Control control);
++            public int IndexOf(Control? control);
+-            public virtual int IndexOfKey(string key);
++            public virtual int IndexOfKey(string? key);
+-            public virtual void Remove(Control value);
++            public virtual void Remove(Control? value);
+-            public virtual void RemoveByKey(string key);
++            public virtual void RemoveByKey(string? key);
+-            int IList.Add(object control);
++            int IList.Add(object? control);
+-            void IList.Remove(object control);
++            void IList.Remove(object? control);
+         }
+     }
+     public sealed class Cursor : IDisposable, IHandle, ISerializable {
+-        public static Cursor? Current { get; set; }
++        public static Cursor Current { get; set; }
+-        public object? Tag { get; set; }
++        public object Tag { get; set; }
+-        public override bool Equals(object? obj);
++        public override bool Equals(object obj);
+     }
+     public class CursorConverter : TypeConverter {
+-        public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType);
++        public override bool CanConvertFrom(ITypeDescriptorContext? context, Type sourceType);
+-        public override TypeConverter.StandardValuesCollection GetStandardValues(ITypeDescriptorContext context);
++        public override TypeConverter.StandardValuesCollection GetStandardValues(ITypeDescriptorContext? context);
+     }
+     public class DataGridView : Control, ISupportInitialize {
+         protected class DataGridViewTopRowAccessibleObject : AccessibleObject {
+-            public DataGridView Owner { get; set; }
++            public DataGridView? Owner { get; set; }
+-            public override AccessibleObject GetChild(int index);
++            public override AccessibleObject? GetChild(int index);
+-            public override AccessibleObject Navigate(AccessibleNavigation navigationDirection);
++            public override AccessibleObject? Navigate(AccessibleNavigation navigationDirection);
+         }
+     }
+     public sealed class DataGridViewAdvancedBorderStyle : ICloneable {
+-        public override bool Equals(object other);
++        public override bool Equals(object? other);
+     }
+     public class DataGridViewBand : DataGridViewElement, ICloneable, IDisposable
+     public class DataGridViewButtonCell : DataGridViewCell {
+         public override Type EditType { get; }
+     }
+     public class DataGridViewButtonColumn : DataGridViewColumn
+     public abstract class DataGridViewCell : DataGridViewElement, ICloneable, IDisposable, IKeyboardToolTip {
+         public virtual Type EditType { get; }
+     }
+     public class DataGridViewCheckBoxCell : DataGridViewCell, IDataGridViewEditingCell {
+         public override Type EditType { get; }
+     }
+     public class DataGridViewColumn : DataGridViewBand, IComponent, IDisposable
+     public class DataGridViewComboBoxCell : DataGridViewCell {
+         public override Type EditType { get; }
+     }
+     public class DataGridViewComboBoxColumn : DataGridViewColumn
+     public class DataGridViewImageCell : DataGridViewCell {
+         public override Type EditType { get; }
+     }
+     public class DataGridViewImageColumn : DataGridViewColumn
+     public class DataGridViewLinkCell : DataGridViewCell {
+         public override Type EditType { get; }
+     }
+     public class DataGridViewLinkColumn : DataGridViewColumn
+     public class DataGridViewTextBoxEditingControl : TextBox, IDataGridViewEditingControl {
+-        public virtual DataGridView EditingControlDataGridView { get; set; }
++        public virtual DataGridView? EditingControlDataGridView { get; set; }
+     }
+     public class DataObject : IDataObject, IDataObject {
+-        public virtual Stream GetAudioStream();
++        public virtual Stream? GetAudioStream();
+-        public virtual object GetData(string format);
++        public virtual object? GetData(string format);
+-        public virtual object GetData(string format, bool autoConvert);
++        public virtual object? GetData(string format, bool autoConvert);
+-        public virtual object GetData(Type format);
++        public virtual object? GetData(Type format);
+-        public virtual Image GetImage();
++        public virtual Image? GetImage();
+-        public virtual void SetData(object data);
++        public virtual void SetData(object? data);
+-        public virtual void SetData(string format, bool autoConvert, object data);
++        public virtual void SetData(string format, bool autoConvert, object? data);
+-        public virtual void SetData(string format, object data);
++        public virtual void SetData(string format, object? data);
+-        public virtual void SetData(Type format, object data);
++        public virtual void SetData(Type format, object? data);
+-        int IDataObject.EnumDAdvise(out IEnumSTATDATA enumAdvise);
++        int IDataObject.EnumDAdvise(out IEnumSTATDATA? enumAdvise);
+     }
+     public class DateTimePicker : Control {
+         public Font CalendarFont { get; set; }
+         public override string Text { get; set; }
++        protected override void OnGotFocus(EventArgs e);
+         public class DateTimePickerAccessibleObject : Control.ControlAccessibleObject {
++            public override string DefaultAction { get; }
+-            public override string KeyboardShortcut { get; }
++            public override string? KeyboardShortcut { get; }
++            public override string Name { get; }
++            public override void DoDefaultAction();
+         }
+     }
+     public sealed class DockingAttribute : Attribute {
+-        public override bool Equals(object obj);
++        public override bool Equals(object? obj);
+     }
+     public class DomainUpDown : UpDownBase {
+-        protected override void OnChanged(object source, EventArgs e);
++        protected override void OnChanged(object? source, EventArgs e);
+-        protected void OnSelectedItemChanged(object source, EventArgs e);
++        protected void OnSelectedItemChanged(object? source, EventArgs e);
+-        protected override void OnTextBoxKeyPress(object source, KeyPressEventArgs e);
++        protected override void OnTextBoxKeyPress(object? source, KeyPressEventArgs e);
+         public class DomainItemAccessibleObject : AccessibleObject {
+-            public DomainItemAccessibleObject(string name, AccessibleObject parent);
++            public DomainItemAccessibleObject(string? name, AccessibleObject parent);
+         }
+         public class DomainUpDownAccessibleObject : Control.ControlAccessibleObject {
+-            public override AccessibleObject GetChild(int index);
++            public override AccessibleObject? GetChild(int index);
+         }
+     }
+     public class DragEventArgs : EventArgs {
++        public DragEventArgs(IDataObject? data, int keyState, int x, int y, DragDropEffects allowedEffect, DragDropEffects effect, DropImageType dropImageType, string message, string messageReplacementToken);
++        public DropImageType DropImageType { get; set; }
++        public string Message { get; set; }
++        public string MessageReplacementToken { get; set; }
+     }
++    public enum DropImageType {
++        Copy = 1,
++        Invalid = -1,
++        Label = 6,
++        Link = 4,
++        Move = 2,
++        NoImage = 8,
++        None = 0,
++        Warning = 7,
++    }
+     public class ErrorProvider : Component, IExtenderProvider, ISupportInitialize {
++        public bool HasErrors { get; }
+     }
+     public abstract class FeatureSupport : IFeatureSupport {
+-        public abstract Version GetVersionPresent(object feature);
++        public abstract Version? GetVersionPresent(object feature);
+-        public static Version GetVersionPresent(string featureClassName, string featureConstName);
++        public static Version? GetVersionPresent(string featureClassName, string featureConstName);
+     }
+     public abstract class FileDialog : CommonDialog {
++        public bool AddToRecent { get; set; }
+         public string DefaultExt { get; set; }
+         public string FileName { get; set; }
+         public string Filter { get; set; }
+         public string InitialDirectory { get; set; }
++        public bool OkRequiresInteraction { get; set; }
++        public bool ShowHiddenFiles { get; set; }
++        public bool ShowPinnedPlaces { get; set; }
+         public string Title { get; set; }
+     }
+     public sealed class FolderBrowserDialog : CommonDialog {
++        public bool AddToRecent { get; set; }
++        public bool OkRequiresInteraction { get; set; }
++        public bool ShowHiddenFiles { get; set; }
++        public bool ShowPinnedPlaces { get; set; }
+-        public new event EventHandler HelpRequest;
++        public new event EventHandler? HelpRequest;
+         public override void Reset();
+     }
+     public class FontDialog : CommonDialog {
+-        public event EventHandler Apply;
++        public event EventHandler? Apply;
+     }
+     public class Form : ContainerControl {
+         public bool IsMdiChild { get; }
+         public bool IsMdiContainer { get; set; }
+         public override string Text { get; set; }
++        protected override void OnGotFocus(EventArgs e);
++        protected override void ScaleMinMaxSize(float xScaleFactor, float yScaleFactor, bool updateContainerSize = true);
+         public new class ControlCollection : Control.ControlCollection {
+-            public override void Add(Control value);
++            public override void Add(Control? value);
+-            public override void Remove(Control value);
++            public override void Remove(Control? value);
+         }
+     }
+     public class FormCollection : ReadOnlyCollectionBase {
+-        public virtual Form this[int index] { get; }
++        public virtual Form? this[int index] { get; }
+-        public virtual Form this[string name] { get; }
++        public virtual Form? this[string? name] { get; }
+     }
+     public class GiveFeedbackEventArgs : EventArgs {
++        public GiveFeedbackEventArgs(DragDropEffects effect, bool useDefaultCursors, Bitmap dragImage, Point cursorOffset, bool useDefaultDragImage);
++        public Point CursorOffset { get; set; }
++        public Bitmap DragImage { get; set; }
++        public bool UseDefaultDragImage { get; set; }
+     }
+     public class GroupBox : Control {
+         public override string Text { get; set; }
+     }
+     public interface IDataGridViewEditingControl {
+-        DataGridView EditingControlDataGridView { get; set; }
++        DataGridView? EditingControlDataGridView { get; set; }
+     }
+     public interface IDataObject {
+-        object GetData(string format);
++        object? GetData(string format);
+-        object GetData(string format, bool autoConvert);
++        object? GetData(string format, bool autoConvert);
+-        object GetData(Type format);
++        object? GetData(Type format);
+-        void SetData(object data);
++        void SetData(object? data);
+-        void SetData(string format, bool autoConvert, object data);
++        void SetData(string format, bool autoConvert, object? data);
+-        void SetData(string format, object data);
++        void SetData(string format, object? data);
+-        void SetData(Type format, object data);
++        void SetData(Type format, object? data);
+     }
+     public interface IFeatureSupport {
+-        Version GetVersionPresent(object feature);
++        Version? GetVersionPresent(object feature);
+     }
+     public class ImageIndexConverter : Int32Converter {
+-        public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value);
++        public override object? ConvertFrom(ITypeDescriptorContext? context, CultureInfo? culture, object value);
+-        public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType);
++        public override object? ConvertTo(ITypeDescriptorContext? context, CultureInfo? culture, object? value, Type destinationType);
+-        public override TypeConverter.StandardValuesCollection GetStandardValues(ITypeDescriptorContext context);
++        public override TypeConverter.StandardValuesCollection GetStandardValues(ITypeDescriptorContext? context);
+-        public override bool GetStandardValuesExclusive(ITypeDescriptorContext context);
++        public override bool GetStandardValuesExclusive(ITypeDescriptorContext? context);
+-        public override bool GetStandardValuesSupported(ITypeDescriptorContext context);
++        public override bool GetStandardValuesSupported(ITypeDescriptorContext? context);
+     }
+     public class ImageKeyConverter : StringConverter {
+-        public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType);
++        public override bool CanConvertFrom(ITypeDescriptorContext? context, Type sourceType);
+-        public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value);
++        public override object? ConvertFrom(ITypeDescriptorContext? context, CultureInfo? culture, object value);
+-        public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType);
++        public override object? ConvertTo(ITypeDescriptorContext? context, CultureInfo? culture, object? value, Type destinationType);
+-        public override TypeConverter.StandardValuesCollection GetStandardValues(ITypeDescriptorContext context);
++        public override TypeConverter.StandardValuesCollection GetStandardValues(ITypeDescriptorContext? context);
+-        public override bool GetStandardValuesExclusive(ITypeDescriptorContext context);
++        public override bool GetStandardValuesExclusive(ITypeDescriptorContext? context);
+-        public override bool GetStandardValuesSupported(ITypeDescriptorContext context);
++        public override bool GetStandardValuesSupported(ITypeDescriptorContext? context);
+     }
+     public sealed class ImageList : Component, IHandle {
+         public bool HandleCreated { get; }
+-        public ImageListStreamer ImageStream { get; set; }
++        public ImageListStreamer? ImageStream { get; set; }
+-        public object Tag { get; set; }
++        public object? Tag { get; set; }
+-        public event EventHandler RecreateHandle;
++        public event EventHandler? RecreateHandle;
+         public sealed class ImageCollection : ICollection, IEnumerable, IList {
+-            bool System.Collections.ICollection.IsSynchronized { get; }
++            bool ICollection.IsSynchronized { get; }
+-            object System.Collections.ICollection.SyncRoot { get; }
++            object ICollection.SyncRoot { get; }
+-            bool System.Collections.IList.IsFixedSize { get; }
++            bool IList.IsFixedSize { get; }
+-            object System.Collections.IList.this[int index] { get; set; }
++            object? IList.this[int index] { get; set; }
+-            public Image this[string key] { get; }
++            public Image? this[string key] { get; }
+-            int IList.Add(object value);
++            int IList.Add(object? value);
+-            bool IList.Contains(object value);
++            bool IList.Contains(object? value);
+-            int IList.IndexOf(object value);
++            int IList.IndexOf(object? value);
+-            void IList.Insert(int index, object value);
++            void IList.Insert(int index, object? value);
+-            void IList.Remove(object value);
++            void IList.Remove(object? value);
+         }
+     }
+     public class KeysConverter : TypeConverter, IComparer {
+-        public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType);
++        public override bool CanConvertFrom(ITypeDescriptorContext? context, Type sourceType);
+-        public override TypeConverter.StandardValuesCollection GetStandardValues(ITypeDescriptorContext context);
++        public override TypeConverter.StandardValuesCollection GetStandardValues(ITypeDescriptorContext? context);
+     }
+     public class Label : Control, IAutomationLiveRegion {
+         public override string Text { get; set; }
+     }
+-    public struct LinkArea {
++    public struct LinkArea : IEquatable&lt;LinkArea&gt; {
+-        public override bool Equals(object o);
++        public override bool Equals(object? o);
++        public bool Equals(LinkArea other);
+         public class LinkAreaConverter : TypeConverter {
+-            public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType);
++            public override bool CanConvertFrom(ITypeDescriptorContext? context, Type sourceType);
+-            public override object CreateInstance(ITypeDescriptorContext context, IDictionary propertyValues);
++            public override object CreateInstance(ITypeDescriptorContext? context, IDictionary propertyValues);
+-            public override PropertyDescriptorCollection GetProperties(ITypeDescriptorContext context, object value, Attribute[] attributes);
++            public override PropertyDescriptorCollection GetProperties(ITypeDescriptorContext? context, object value, Attribute[]? attributes);
+         }
+     }
+     public class LinkConverter : TypeConverter {
+-        public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType);
++        public override bool CanConvertFrom(ITypeDescriptorContext? context, Type sourceType);
+     }
+-    public delegate void LinkLabelLinkClickedEventHandler(object sender, LinkLabelLinkClickedEventArgs e);
++    public delegate void LinkLabelLinkClickedEventHandler(object? sender, LinkLabelLinkClickedEventArgs e);
+     public class ListBindingConverter : TypeConverter {
+-        public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType);
++        public override bool CanConvertTo(ITypeDescriptorContext? context, Type? destinationType);
+-        public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType);
++        public override object? ConvertTo(ITypeDescriptorContext? context, CultureInfo? culture, object? value, Type destinationType);
+-        public override object CreateInstance(ITypeDescriptorContext context, IDictionary propertyValues);
++        public override object CreateInstance(ITypeDescriptorContext? context, IDictionary propertyValues);
+-        public override bool GetCreateInstanceSupported(ITypeDescriptorContext context);
++        public override bool GetCreateInstanceSupported(ITypeDescriptorContext? context);
+     }
+     public class ListBox : ListControl {
+-        public override Image BackgroundImage { get; set; }
++        public override Image? BackgroundImage { get; set; }
+         public override Font Font { get; set; }
+-        public object SelectedItem { get; set; }
++        public object? SelectedItem { get; set; }
+         public override string Text { get; set; }
+-        public new event EventHandler BackgroundImageChanged;
++        public new event EventHandler? BackgroundImageChanged;
+-        public new event EventHandler BackgroundImageLayoutChanged;
++        public new event EventHandler? BackgroundImageLayoutChanged;
+-        public new event EventHandler Click;
++        public new event EventHandler? Click;
+-        public event DrawItemEventHandler DrawItem;
++        public event DrawItemEventHandler? DrawItem;
+-        public event MeasureItemEventHandler MeasureItem;
++        public event MeasureItemEventHandler? MeasureItem;
+-        public new event MouseEventHandler MouseClick;
++        public new event MouseEventHandler? MouseClick;
+-        public new event EventHandler PaddingChanged;
++        public new event EventHandler? PaddingChanged;
+-        public new event PaintEventHandler Paint;
++        public new event PaintEventHandler? Paint;
+-        public event EventHandler SelectedIndexChanged;
++        public event EventHandler? SelectedIndexChanged;
+-        public new event EventHandler TextChanged;
++        public new event EventHandler? TextChanged;
+         public class IntegerCollection : ICollection, IEnumerable, IList {
+-            bool System.Collections.ICollection.IsSynchronized { get; }
++            bool ICollection.IsSynchronized { get; }
+-            object System.Collections.ICollection.SyncRoot { get; }
++            object ICollection.SyncRoot { get; }
+-            bool System.Collections.IList.IsFixedSize { get; }
++            bool IList.IsFixedSize { get; }
+-            bool System.Collections.IList.IsReadOnly { get; }
++            bool IList.IsReadOnly { get; }
+-            object System.Collections.IList.this[int index] { get; set; }
++            object? IList.this[int index] { get; set; }
+-            int IList.Add(object item);
++            int IList.Add(object? item);
+-            bool IList.Contains(object item);
++            bool IList.Contains(object? item);
+-            int IList.IndexOf(object item);
++            int IList.IndexOf(object? item);
+-            void IList.Insert(int index, object value);
++            void IList.Insert(int index, object? value);
+-            void IList.Remove(object value);
++            void IList.Remove(object? value);
+         }
+         public class SelectedIndexCollection : ICollection, IEnumerable, IList {
+-            bool System.Collections.ICollection.IsSynchronized { get; }
++            bool ICollection.IsSynchronized { get; }
+-            object System.Collections.ICollection.SyncRoot { get; }
++            object ICollection.SyncRoot { get; }
+-            bool System.Collections.IList.IsFixedSize { get; }
++            bool IList.IsFixedSize { get; }
+-            object System.Collections.IList.this[int index] { get; set; }
++            object? IList.this[int index] { get; set; }
+-            int IList.Add(object value);
++            int IList.Add(object? value);
+-            bool IList.Contains(object selectedIndex);
++            bool IList.Contains(object? selectedIndex);
+-            int IList.IndexOf(object selectedIndex);
++            int IList.IndexOf(object? selectedIndex);
+-            void IList.Insert(int index, object value);
++            void IList.Insert(int index, object? value);
+-            void IList.Remove(object value);
++            void IList.Remove(object? value);
+         }
+         public class SelectedObjectCollection : ICollection, IEnumerable, IList {
+-            bool System.Collections.ICollection.IsSynchronized { get; }
++            bool ICollection.IsSynchronized { get; }
+-            object System.Collections.ICollection.SyncRoot { get; }
++            object ICollection.SyncRoot { get; }
+-            bool System.Collections.IList.IsFixedSize { get; }
++            bool IList.IsFixedSize { get; }
+-            public object this[int index] { get; set; }
++            public object? this[int index] { get; set; }
+-            public bool Contains(object selectedObject);
++            public bool Contains(object? selectedObject);
+-            public int IndexOf(object selectedObject);
++            public int IndexOf(object? selectedObject);
+-            int IList.Add(object value);
++            int IList.Add(object? value);
+-            void IList.Insert(int index, object value);
++            void IList.Insert(int index, object? value);
+-            void IList.Remove(object value);
++            void IList.Remove(object? value);
+         }
+     }
+     public class ListView : Control {
+         public override string Text { get; set; }
+-        public event EventHandler&lt;ListViewGroupEventArgs&gt; GroupCollapsedStateChanged;
++        public event EventHandler&lt;ListViewGroupEventArgs&gt;? GroupCollapsedStateChanged;
+-        public event EventHandler&lt;ListViewGroupEventArgs&gt; GroupTaskLinkClick;
++        public event EventHandler&lt;ListViewGroupEventArgs&gt;? GroupTaskLinkClick;
+-        public ListViewItem FindItemWithText(string text);
++        public ListViewItem? FindItemWithText(string text);
+-        public ListViewItem FindItemWithText(string text, bool includeSubItemsInSearch, int startIndex);
++        public ListViewItem? FindItemWithText(string text, bool includeSubItemsInSearch, int startIndex);
+-        public ListViewItem FindItemWithText(string text, bool includeSubItemsInSearch, int startIndex, bool isPrefixSearch);
++        public ListViewItem? FindItemWithText(string text, bool includeSubItemsInSearch, int startIndex, bool isPrefixSearch);
+         public class CheckedIndexCollection : ICollection, IEnumerable, IList {
+-            bool System.Collections.ICollection.IsSynchronized { get; }
++            bool ICollection.IsSynchronized { get; }
+-            object System.Collections.ICollection.SyncRoot { get; }
++            object ICollection.SyncRoot { get; }
+-            bool System.Collections.IList.IsFixedSize { get; }
++            bool IList.IsFixedSize { get; }
+-            object System.Collections.IList.this[int index] { get; set; }
++            object? IList.this[int index] { get; set; }
+-            int IList.Add(object value);
++            int IList.Add(object? value);
+-            bool IList.Contains(object checkedIndex);
++            bool IList.Contains(object? checkedIndex);
+-            int IList.IndexOf(object checkedIndex);
++            int IList.IndexOf(object? checkedIndex);
+-            void IList.Insert(int index, object value);
++            void IList.Insert(int index, object? value);
+-            void IList.Remove(object value);
++            void IList.Remove(object? value);
+         }
+         public class CheckedListViewItemCollection : ICollection, IEnumerable, IList {
+-            bool System.Collections.ICollection.IsSynchronized { get; }
++            bool ICollection.IsSynchronized { get; }
+-            object System.Collections.ICollection.SyncRoot { get; }
++            object ICollection.SyncRoot { get; }
+-            bool System.Collections.IList.IsFixedSize { get; }
++            bool IList.IsFixedSize { get; }
+-            object System.Collections.IList.this[int index] { get; set; }
++            object IList.this[int index] { get; set; }
+         }
+         public class ColumnHeaderCollection : ICollection, IEnumerable, IList {
+-            bool System.Collections.ICollection.IsSynchronized { get; }
++            bool ICollection.IsSynchronized { get; }
+-            object System.Collections.ICollection.SyncRoot { get; }
++            object ICollection.SyncRoot { get; }
+-            bool System.Collections.IList.IsFixedSize { get; }
++            bool IList.IsFixedSize { get; }
+-            object System.Collections.IList.this[int index] { get; set; }
++            object IList.this[int index] { get; set; }
+-            public virtual ColumnHeader Add(string text);
++            public virtual ColumnHeader Add(string? text);
+-            public virtual ColumnHeader Add(string text, int width);
++            public virtual ColumnHeader Add(string? text, int width);
+-            public virtual ColumnHeader Add(string text, int width, HorizontalAlignment textAlign);
++            public virtual ColumnHeader Add(string? text, int width, HorizontalAlignment textAlign);
+-            public virtual ColumnHeader Add(string key, string text, int width, HorizontalAlignment textAlign, string imageKey);
++            public virtual ColumnHeader Add(string? key, string? text, int width, HorizontalAlignment textAlign, string imageKey);
+         }
+         public class SelectedIndexCollection : ICollection, IEnumerable, IList {
+-            bool System.Collections.ICollection.IsSynchronized { get; }
++            bool ICollection.IsSynchronized { get; }
+-            object System.Collections.ICollection.SyncRoot { get; }
++            object ICollection.SyncRoot { get; }
+-            bool System.Collections.IList.IsFixedSize { get; }
++            bool IList.IsFixedSize { get; }
+-            object System.Collections.IList.this[int index] { get; set; }
++            object? IList.this[int index] { get; set; }
+-            int IList.Add(object value);
++            int IList.Add(object? value);
+-            bool IList.Contains(object selectedIndex);
++            bool IList.Contains(object? selectedIndex);
+-            int IList.IndexOf(object selectedIndex);
++            int IList.IndexOf(object? selectedIndex);
+-            void IList.Insert(int index, object value);
++            void IList.Insert(int index, object? value);
+-            void IList.Remove(object value);
++            void IList.Remove(object? value);
+         }
+         public class SelectedListViewItemCollection : ICollection, IEnumerable, IList {
+-            bool System.Collections.ICollection.IsSynchronized { get; }
++            bool ICollection.IsSynchronized { get; }
+-            object System.Collections.ICollection.SyncRoot { get; }
++            object ICollection.SyncRoot { get; }
+-            bool System.Collections.IList.IsFixedSize { get; }
++            bool IList.IsFixedSize { get; }
+-            object System.Collections.IList.this[int index] { get; set; }
++            object IList.this[int index] { get; set; }
+         }
+     }
+     public class ListViewGroupCollection : ICollection, IEnumerable, IList {
+-        bool System.Collections.ICollection.IsSynchronized { get; }
++        bool ICollection.IsSynchronized { get; }
+-        object System.Collections.ICollection.SyncRoot { get; }
++        object ICollection.SyncRoot { get; }
+-        bool System.Collections.IList.IsFixedSize { get; }
++        bool IList.IsFixedSize { get; }
+-        bool System.Collections.IList.IsReadOnly { get; }
++        bool IList.IsReadOnly { get; }
+-        object System.Collections.IList.this[int index] { get; set; }
++        object? IList.this[int index] { get; set; }
+-        public ListViewGroup this[string key] { get; set; }
++        public ListViewGroup? this[string key] { get; set; }
+-        public ListViewGroup Add(string key, string headerText);
++        public ListViewGroup Add(string? key, string? headerText);
+-        int IList.Add(object value);
++        int IList.Add(object? value);
+-        bool IList.Contains(object value);
++        bool IList.Contains(object? value);
+-        int IList.IndexOf(object value);
++        int IList.IndexOf(object? value);
+-        void IList.Insert(int index, object value);
++        void IList.Insert(int index, object? value);
+-        void IList.Remove(object value);
++        void IList.Remove(object? value);
+     }
+     public class ListViewHitTestInfo {
+         public ListViewItem Item { get; }
+         public ListViewHitTestLocations Location { get; }
+         public ListViewItem.ListViewSubItem SubItem { get; }
+     }
+     public class ListViewItem : ICloneable, IKeyboardToolTip, ISerializable {
+         public class ListViewSubItem {
+-            public ListViewSubItem(ListViewItem owner, string text);
++            public ListViewSubItem(ListViewItem owner, string? text);
+-            public ListViewSubItem(ListViewItem owner, string text, Color foreColor, Color backColor, Font font);
++            public ListViewSubItem(ListViewItem owner, string? text, Color foreColor, Color backColor, Font font);
+             public string Name { get; set; }
+-            public object Tag { get; set; }
++            public object? Tag { get; set; }
+             public string Text { get; set; }
+         }
+         public class ListViewSubItemCollection : ICollection, IEnumerable, IList {
+-            bool System.Collections.ICollection.IsSynchronized { get; }
++            bool ICollection.IsSynchronized { get; }
+-            object System.Collections.ICollection.SyncRoot { get; }
++            object ICollection.SyncRoot { get; }
+-            bool System.Collections.IList.IsFixedSize { get; }
++            bool IList.IsFixedSize { get; }
+-            object System.Collections.IList.this[int index] { get; set; }
++            object? IList.this[int index] { get; set; }
+-            public virtual ListViewItem.ListViewSubItem this[string key] { get; }
++            public virtual ListViewItem.ListViewSubItem? this[string key] { get; }
+-            public ListViewItem.ListViewSubItem Add(string text);
++            public ListViewItem.ListViewSubItem Add(string? text);
+-            public ListViewItem.ListViewSubItem Add(string text, Color foreColor, Color backColor, Font font);
++            public ListViewItem.ListViewSubItem Add(string? text, Color foreColor, Color backColor, Font font);
+-            public bool Contains(ListViewItem.ListViewSubItem subItem);
++            public bool Contains(ListViewItem.ListViewSubItem? subItem);
+-            public virtual bool ContainsKey(string key);
++            public virtual bool ContainsKey(string? key);
+-            public int IndexOf(ListViewItem.ListViewSubItem subItem);
++            public int IndexOf(ListViewItem.ListViewSubItem? subItem);
+-            public virtual int IndexOfKey(string key);
++            public virtual int IndexOfKey(string? key);
+-            public void Remove(ListViewItem.ListViewSubItem item);
++            public void Remove(ListViewItem.ListViewSubItem? item);
+-            public virtual void RemoveByKey(string key);
++            public virtual void RemoveByKey(string? key);
+-            int IList.Add(object item);
++            int IList.Add(object? item);
+-            bool IList.Contains(object item);
++            bool IList.Contains(object? item);
+-            int IList.IndexOf(object subItem);
++            int IList.IndexOf(object? subItem);
+-            void IList.Insert(int index, object item);
++            void IList.Insert(int index, object? item);
+-            void IList.Remove(object item);
++            void IList.Remove(object? item);
+         }
+     }
+     public class ListViewItemStateImageIndexConverter : ImageIndexConverter {
+-        public override TypeConverter.StandardValuesCollection GetStandardValues(ITypeDescriptorContext context);
++        public override TypeConverter.StandardValuesCollection GetStandardValues(ITypeDescriptorContext? context);
+     }
+     public class MaskedTextBox : TextBoxBase {
+-        public IFormatProvider FormatProvider { get; set; }
++        public IFormatProvider? FormatProvider { get; set; }
+         public new string[] Lines { get; set; }
+         public string Mask { get; set; }
+-        public MaskedTextProvider MaskedTextProvider { get; }
++        public MaskedTextProvider? MaskedTextProvider { get; }
+         public override string SelectedText { get; set; }
+         public override string Text { get; set; }
+-        public Type ValidatingType { get; set; }
++        public Type? ValidatingType { get; set; }
+-        public new event EventHandler AcceptsTabChanged;
++        public new event EventHandler? AcceptsTabChanged;
+-        public event EventHandler IsOverwriteModeChanged;
++        public event EventHandler? IsOverwriteModeChanged;
+-        public event EventHandler MaskChanged;
++        public event EventHandler? MaskChanged;
+-        public event MaskInputRejectedEventHandler MaskInputRejected;
++        public event MaskInputRejectedEventHandler? MaskInputRejected;
+-        public new event EventHandler MultilineChanged;
++        public new event EventHandler? MultilineChanged;
+-        public event EventHandler TextAlignChanged;
++        public event EventHandler? TextAlignChanged;
+-        public event TypeValidationEventHandler TypeValidationCompleted;
++        public event TypeValidationEventHandler? TypeValidationCompleted;
+-        public object ValidateText();
++        public object? ValidateText();
+     }
+     public sealed class MdiClient : Control {
+-        public override Image BackgroundImage { get; set; }
++        public override Image? BackgroundImage { get; set; }
+     }
+-    public struct Message {
++    public struct Message : IEquatable&lt;Message&gt; {
+         public IntPtr LParam { get; set; }
+         public int Msg { get; set; }
+         public IntPtr Result { get; set; }
+         public IntPtr WParam { get; set; }
++        public bool Equals(Message other);
+         public object? GetLParam(Type cls);
+     }
+     public class MonthCalendar : Control {
+-        protected override void Dispose(bool disposing);
+     }
+     public class NativeWindow : MarshalByRefObject, IHandle, IWin32Window {
+-        public static NativeWindow FromHandle(IntPtr handle);
++        public static NativeWindow? FromHandle(IntPtr handle);
+     }
+     public sealed class NotifyIcon : Component {
+         public string Text { get; set; }
+     }
+     public class NumericUpDown : UpDownBase, ISupportInitialize {
+         public override string Text { get; set; }
+-        public new event EventHandler PaddingChanged;
++        public new event EventHandler? PaddingChanged;
+-        public new event EventHandler TextChanged;
++        public new event EventHandler? TextChanged;
+-        public event EventHandler ValueChanged;
++        public event EventHandler? ValueChanged;
+-        protected override AccessibleObject CreateAccessibilityInstance();
+-        protected override void OnTextBoxKeyPress(object source, KeyPressEventArgs e);
++        protected override void OnTextBoxKeyPress(object? source, KeyPressEventArgs e);
+     }
+     public class OpacityConverter : TypeConverter {
+-        public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType);
++        public override bool CanConvertFrom(ITypeDescriptorContext? context, Type sourceType);
+     }
+     public sealed class OpenFileDialog : FileDialog {
++        public bool SelectReadOnly { get; set; }
++        public bool ShowPreview { get; set; }
+     }
+     public class OSFeature : FeatureSupport {
+-        public override Version GetVersionPresent(object feature);
++        public override Version? GetVersionPresent(object feature);
+     }
+-    public struct Padding {
++    public struct Padding : IEquatable&lt;Padding&gt; {
++        public bool Equals(Padding other);
+     }
+     public class PaddingConverter : TypeConverter {
+         public override PropertyDescriptorCollection GetProperties(ITypeDescriptorContext? context, object value, Attribute[]? attributes);
+     }
+     public class Panel : ScrollableControl {
+         public override string Text { get; set; }
++        protected override AccessibleObject CreateAccessibilityInstance();
+     }
+     public class PrintControllerWithStatusDialog : PrintController {
+-        public override Graphics OnStartPage(PrintDocument document, PrintPageEventArgs e);
++        public override Graphics? OnStartPage(PrintDocument document, PrintPageEventArgs e);
+     }
+     public sealed class PrintDialog : CommonDialog {
+-        public PrintDocument Document { get; set; }
++        public PrintDocument? Document { get; set; }
+         public PrinterSettings PrinterSettings { get; set; }
+     }
+     public class PrintPreviewControl : Control {
+-        public PrintDocument Document { get; set; }
++        public PrintDocument? Document { get; set; }
+         public override string Text { get; set; }
+-        public event EventHandler StartPageChanged;
++        public event EventHandler? StartPageChanged;
+-        public new event EventHandler TextChanged;
++        public new event EventHandler? TextChanged;
++        protected override AccessibleObject CreateAccessibilityInstance();
+     }
+     public class PrintPreviewDialog : Form {
+         public override Cursor Cursor { get; set; }
+         public override Font Font { get; set; }
+         public override string Text { get; set; }
+     }
+     public class ProgressBar : Control {
+         public override Font Font { get; set; }
+         public override string Text { get; set; }
+     }
+     public class PropertyGrid : ContainerControl, IComPropertyBrowser, Interop.Ole32.IPropertyNotifySink {
+-        void IComPropertyBrowser.LoadState(RegistryKey optRoot);
++        void IComPropertyBrowser.LoadState(RegistryKey key);
+-        void IComPropertyBrowser.SaveState(RegistryKey optRoot);
++        void IComPropertyBrowser.SaveState(RegistryKey key);
+     }
+     public class RadioButton : ButtonBase {
+-        public event EventHandler AppearanceChanged;
++        public event EventHandler? AppearanceChanged;
+-        public event EventHandler CheckedChanged;
++        public event EventHandler? CheckedChanged;
+-        public new event EventHandler DoubleClick;
++        public new event EventHandler? DoubleClick;
+-        public new event MouseEventHandler MouseDoubleClick;
++        public new event MouseEventHandler? MouseDoubleClick;
+     }
+     public static class RadioButtonRenderer {
+-        public static void DrawRadioButton(Graphics g, Point glyphLocation, Rectangle textBounds, string radioButtonText, Font font, bool focused, RadioButtonState state);
++        public static void DrawRadioButton(Graphics g, Point glyphLocation, Rectangle textBounds, string? radioButtonText, Font? font, bool focused, RadioButtonState state);
+-        public static void DrawRadioButton(Graphics g, Point glyphLocation, Rectangle textBounds, string radioButtonText, Font font, Image image, Rectangle imageBounds, bool focused, RadioButtonState state);
++        public static void DrawRadioButton(Graphics g, Point glyphLocation, Rectangle textBounds, string? radioButtonText, Font? font, Image image, Rectangle imageBounds, bool focused, RadioButtonState state);
+-        public static void DrawRadioButton(Graphics g, Point glyphLocation, Rectangle textBounds, string radioButtonText, Font font, TextFormatFlags flags, bool focused, RadioButtonState state);
++        public static void DrawRadioButton(Graphics g, Point glyphLocation, Rectangle textBounds, string? radioButtonText, Font? font, TextFormatFlags flags, bool focused, RadioButtonState state);
+-        public static void DrawRadioButton(Graphics g, Point glyphLocation, Rectangle textBounds, string radioButtonText, Font font, TextFormatFlags flags, Image image, Rectangle imageBounds, bool focused, RadioButtonState state);
++        public static void DrawRadioButton(Graphics g, Point glyphLocation, Rectangle textBounds, string? radioButtonText, Font? font, TextFormatFlags flags, Image image, Rectangle imageBounds, bool focused, RadioButtonState state);
+     }
+     public sealed class SaveFileDialog : FileDialog {
++        public bool CheckWriteAccess { get; set; }
++        public bool ExpandedMode { get; set; }
+     }
+     public class Screen {
+-        public static Screen PrimaryScreen { get; }
++        public static Screen? PrimaryScreen { get; }
+-        public override bool Equals(object obj);
++        public override bool Equals(object? obj);
+     }
+     public class ScrollableControl : Control, IArrangedElement, IComponent, IDisposable {
+-        public event ScrollEventHandler Scroll;
++        public event ScrollEventHandler? Scroll;
+-        public void ScrollControlIntoView(Control activeControl);
++        public void ScrollControlIntoView(Control? activeControl);
+         public class DockPaddingEdges : ICloneable {
+-            public override bool Equals(object other);
++            public override bool Equals(object? other);
+         }
+         public class DockPaddingEdgesConverter : TypeConverter {
+-            public override PropertyDescriptorCollection GetProperties(ITypeDescriptorContext context, object value, Attribute[] attributes);
++            public override PropertyDescriptorCollection GetProperties(ITypeDescriptorContext? context, object value, Attribute[]? attributes);
+-            public override bool GetPropertiesSupported(ITypeDescriptorContext context);
++            public override bool GetPropertiesSupported(ITypeDescriptorContext? context);
+         }
+     }
+     public abstract class ScrollBar : Control {
+         public override Font Font { get; set; }
+         public override string Text { get; set; }
+     }
+     public class SelectionRangeConverter : TypeConverter {
+-        public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType);
++        public override bool CanConvertFrom(ITypeDescriptorContext? context, Type sourceType);
+-        public override object CreateInstance(ITypeDescriptorContext context, IDictionary propertyValues);
++        public override object CreateInstance(ITypeDescriptorContext? context, IDictionary propertyValues);
+-        public override PropertyDescriptorCollection GetProperties(ITypeDescriptorContext context, object value, Attribute[] attributes);
++        public override PropertyDescriptorCollection GetProperties(ITypeDescriptorContext? context, object value, Attribute[]? attributes);
+     }
+     public class SplitContainer : ContainerControl, ISupportInitialize {
+         public override string Text { get; set; }
++        protected override AccessibleObject CreateAccessibilityInstance();
+     }
+     public class Splitter : Control {
+         public override Font Font { get; set; }
+         public override string Text { get; set; }
+     }
+     public sealed class SplitterPanel : Panel {
+         public new string Name { get; set; }
+     }
+     public class TabControl : Control {
+         public class TabPageCollection : ICollection, IEnumerable, IList {
+-            bool System.Collections.ICollection.IsSynchronized { get; }
++            bool ICollection.IsSynchronized { get; }
+-            object System.Collections.ICollection.SyncRoot { get; }
++            object ICollection.SyncRoot { get; }
+-            bool System.Collections.IList.IsFixedSize { get; }
++            bool IList.IsFixedSize { get; }
+-            object System.Collections.IList.this[int index] { get; set; }
++            object IList.this[int index] { get; set; }
+         }
+     }
+     public class TableLayoutPanel : Panel, IExtenderProvider {
+-        public event TableLayoutCellPaintEventHandler CellPaint;
++        public event TableLayoutCellPaintEventHandler? CellPaint;
+-        public Control GetControlFromPosition(int column, int row);
++        public Control? GetControlFromPosition(int column, int row);
+-        public TableLayoutPanelCellPosition GetPositionFromControl(Control control);
++        public TableLayoutPanelCellPosition GetPositionFromControl(Control? control);
+     }
+-    public struct TableLayoutPanelCellPosition {
++    public struct TableLayoutPanelCellPosition : IEquatable&lt;TableLayoutPanelCellPosition&gt; {
++        public bool Equals(TableLayoutPanelCellPosition other);
+     }
+     public class TabPage : Panel {
+         public string ImageKey { get; set; }
+         public override string Text { get; set; }
+         public string ToolTipText { get; set; }
+         public class TabPageControlCollection : Control.ControlCollection {
+-            public override void Add(Control value);
++            public override void Add(Control? value);
+         }
+     }
+     public static class TabRenderer {
+-        public static void DrawTabItem(Graphics g, Rectangle bounds, string tabItemText, Font font, bool focused, TabItemState state);
++        public static void DrawTabItem(Graphics g, Rectangle bounds, string? tabItemText, Font? font, bool focused, TabItemState state);
+-        public static void DrawTabItem(Graphics g, Rectangle bounds, string tabItemText, Font font, Image image, Rectangle imageRectangle, bool focused, TabItemState state);
++        public static void DrawTabItem(Graphics g, Rectangle bounds, string? tabItemText, Font? font, Image image, Rectangle imageRectangle, bool focused, TabItemState state);
+-        public static void DrawTabItem(Graphics g, Rectangle bounds, string tabItemText, Font font, TextFormatFlags flags, bool focused, TabItemState state);
++        public static void DrawTabItem(Graphics g, Rectangle bounds, string? tabItemText, Font? font, TextFormatFlags flags, bool focused, TabItemState state);
+-        public static void DrawTabItem(Graphics g, Rectangle bounds, string tabItemText, Font font, TextFormatFlags flags, Image image, Rectangle imageRectangle, bool focused, TabItemState state);
++        public static void DrawTabItem(Graphics g, Rectangle bounds, string? tabItemText, Font? font, TextFormatFlags flags, Image image, Rectangle imageRectangle, bool focused, TabItemState state);
+-        public static void DrawTabItem(Graphics g, Rectangle bounds, string tabItemText, Font font, TabItemState state);
++        public static void DrawTabItem(Graphics g, Rectangle bounds, string? tabItemText, Font? font, TabItemState state);
+     }
+     public class TextBox : TextBoxBase {
+         public AutoCompleteStringCollection AutoCompleteCustomSource { get; set; }
+         public virtual string PlaceholderText { get; set; }
+         public override string Text { get; set; }
+-        public event EventHandler TextAlignChanged;
++        public event EventHandler? TextAlignChanged;
+-        public void Paste(string text);
++        public void Paste(string? text);
+     }
+     public abstract class TextBoxBase : Control {
+         public string[] Lines { get; set; }
+         public virtual string SelectedText { get; set; }
+         public override string Text { get; set; }
+     }
+     public class ThreadExceptionDialog : Form {
+-        public new event EventHandler AutoSizeChanged;
++        public new event EventHandler? AutoSizeChanged;
+     }
+     public class Timer : Component {
+-        public object Tag { get; set; }
++        public object? Tag { get; set; }
+     }
+     public class ToolStrip : ScrollableControl, IArrangedElement, IComponent, IDisposable, ISupportToolStripPanel {
+         public class ToolStripAccessibleObject : Control.ControlAccessibleObject {
+-            public override AccessibleObject GetChild(int index);
++            public override AccessibleObject? GetChild(int index);
+-            public override AccessibleObject HitTest(int x, int y);
++            public override AccessibleObject? HitTest(int x, int y);
+         }
+     }
+     public class ToolStripArrowRenderEventArgs : EventArgs {
+-        public ToolStripArrowRenderEventArgs(Graphics g, ToolStripItem toolStripItem, Rectangle arrowRectangle, Color arrowColor, ArrowDirection arrowDirection);
++        public ToolStripArrowRenderEventArgs(Graphics g, ToolStripItem? toolStripItem, Rectangle arrowRectangle, Color arrowColor, ArrowDirection arrowDirection);
+-        public ToolStripItem Item { get; }
++        public ToolStripItem? Item { get; }
+     }
+     public class ToolStripContainer : ContainerControl {
+         public override Cursor Cursor { get; set; }
++        protected override AccessibleObject CreateAccessibilityInstance();
+     }
+     public class ToolStripContentPanel : Panel {
+         public new string Name { get; set; }
+     }
+     public class ToolStripDropDownMenu : ToolStripDropDown {
++        protected override AccessibleObject CreateAccessibilityInstance();
+     }
+-    public abstract class ToolStripItem : Component, IArrangedElement, IComponent, IDisposable, IDropTarget, IKeyboardToolTip, ISupportOleDropSource {
++    public abstract class ToolStripItem : BindableComponent, IArrangedElement, ICommandBindingTargetProvider, IComponent, IDisposable, IDropTarget, IKeyboardToolTip, ISupportOleDropSource {
++        public ICommand Command { get; set; }
++        public object CommandParameter { get; set; }
++        public event EventHandler CommandCanExecuteChanged;
++        public event EventHandler CommandChanged;
++        public event EventHandler CommandParameterChanged;
++        public DragDropEffects DoDragDrop(object data, DragDropEffects allowedEffects, Bitmap dragImage, Point cursorOffset, bool useDefaultDragImage);
++        protected virtual void OnCommandCanExecuteChanged(EventArgs e);
++        protected virtual void OnCommandChanged(EventArgs e);
++        protected virtual void OnCommandParameterChanged(EventArgs e);
++        protected virtual void OnRequestCommandExecute(EventArgs e);
+     }
+     public class ToolStripItemImageRenderEventArgs : ToolStripItemRenderEventArgs {
+-        public ToolStripItemImageRenderEventArgs(Graphics g, ToolStripItem item, Image image, Rectangle imageRectangle);
++        public ToolStripItemImageRenderEventArgs(Graphics g, ToolStripItem item, Image? image, Rectangle imageRectangle);
+     }
+     public class ToolStripItemRenderEventArgs : EventArgs {
+-        public ToolStrip ToolStrip { get; }
++        public ToolStrip? ToolStrip { get; }
+     }
+     public class ToolStripItemTextRenderEventArgs : ToolStripItemRenderEventArgs {
+-        public ToolStripItemTextRenderEventArgs(Graphics g, ToolStripItem item, string text, Rectangle textRectangle, Color textColor, Font textFont, ContentAlignment textAlign);
++        public ToolStripItemTextRenderEventArgs(Graphics g, ToolStripItem item, string? text, Rectangle textRectangle, Color textColor, Font? textFont, ContentAlignment textAlign);
+-        public ToolStripItemTextRenderEventArgs(Graphics g, ToolStripItem item, string text, Rectangle textRectangle, Color textColor, Font textFont, TextFormatFlags format);
++        public ToolStripItemTextRenderEventArgs(Graphics g, ToolStripItem item, string? text, Rectangle textRectangle, Color textColor, Font? textFont, TextFormatFlags format);
+     }
+     public class ToolStripPanel : ContainerControl, IArrangedElement, IComponent, IDisposable {
+         public override string Text { get; set; }
+-        public new event EventHandler AutoSizeChanged;
++        public new event EventHandler? AutoSizeChanged;
+-        public event EventHandler RendererChanged;
++        public event EventHandler? RendererChanged;
+-        public new event EventHandler TabIndexChanged;
++        public new event EventHandler? TabIndexChanged;
+-        public new event EventHandler TabStopChanged;
++        public new event EventHandler? TabStopChanged;
+-        public new event EventHandler TextChanged;
++        public new event EventHandler? TextChanged;
++        protected override AccessibleObject CreateAccessibilityInstance();
+-        public ToolStripPanelRow PointToRow(Point clientLocation);
++        public ToolStripPanelRow? PointToRow(Point clientLocation);
+     }
+     public class TrackBar : Control, ISupportInitialize {
+         public override Font Font { get; set; }
+         public override string Text { get; set; }
+     }
+     public class TreeNode : MarshalByRefObject, ICloneable, IKeyboardToolTip, ISerializable
+     public class TreeView : Control {
++        protected override AccessibleObject CreateAccessibilityInstance();
+     }
+     public class TreeViewImageIndexConverter : ImageIndexConverter {
+-        public override TypeConverter.StandardValuesCollection GetStandardValues(ITypeDescriptorContext context);
++        public override TypeConverter.StandardValuesCollection GetStandardValues(ITypeDescriptorContext? context);
+     }
+     public class TreeViewImageKeyConverter : ImageKeyConverter {
+-        public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType);
++        public override object? ConvertTo(ITypeDescriptorContext? context, CultureInfo? culture, object? value, Type destinationType);
+     }
+     public abstract class UpDownBase : ContainerControl {
+-        public override Image BackgroundImage { get; set; }
++        public override Image? BackgroundImage { get; set; }
+-        public override ContextMenuStrip ContextMenuStrip { get; set; }
++        public override ContextMenuStrip? ContextMenuStrip { get; set; }
+         public override string Text { get; set; }
+-        public new event EventHandler AutoSizeChanged;
++        public new event EventHandler? AutoSizeChanged;
+-        public new event EventHandler BackgroundImageChanged;
++        public new event EventHandler? BackgroundImageChanged;
+-        public new event EventHandler BackgroundImageLayoutChanged;
++        public new event EventHandler? BackgroundImageLayoutChanged;
+-        public new event EventHandler MouseEnter;
++        public new event EventHandler? MouseEnter;
+-        public new event EventHandler MouseHover;
++        public new event EventHandler? MouseHover;
+-        public new event EventHandler MouseLeave;
++        public new event EventHandler? MouseLeave;
+-        public new event MouseEventHandler MouseMove;
++        public new event MouseEventHandler? MouseMove;
++        protected override AccessibleObject CreateAccessibilityInstance();
+-        protected virtual void OnChanged(object source, EventArgs e);
++        protected virtual void OnChanged(object? source, EventArgs e);
+-        protected virtual void OnTextBoxKeyDown(object source, KeyEventArgs e);
++        protected virtual void OnTextBoxKeyDown(object? source, KeyEventArgs e);
+-        protected virtual void OnTextBoxKeyPress(object source, KeyPressEventArgs e);
++        protected virtual void OnTextBoxKeyPress(object? source, KeyPressEventArgs e);
+-        protected virtual void OnTextBoxLostFocus(object source, EventArgs e);
++        protected virtual void OnTextBoxLostFocus(object? source, EventArgs e);
+-        protected virtual void OnTextBoxResize(object source, EventArgs e);
++        protected virtual void OnTextBoxResize(object? source, EventArgs e);
+-        protected virtual void OnTextBoxTextChanged(object source, EventArgs e);
++        protected virtual void OnTextBoxTextChanged(object? source, EventArgs e);
+     }
+     public class UserControl : ContainerControl {
+         public override string Text { get; set; }
+     }
+     public class WebBrowser : WebBrowserBase {
++        protected override AccessibleObject CreateAccessibilityInstance();
+     }
+     public class WebBrowserNavigatingEventArgs : CancelEventArgs {
+         public string TargetFrameName { get; }
+         public Uri Url { get; }
+     }
+ }
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

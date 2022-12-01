@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>System.Numerics - API Diff between .NET 6 and .NET 7</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/diff.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/csharp.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">API Diff between .NET 6 and .NET 7</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">.NET 7.0   API Changes</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Microsoft.AspNetCore.App <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0/" class="dropdown-item">API Difference 6.0 vs 7.0</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Authentication.Cookies/" class="dropdown-item">Microsoft.AspNetCore.Authentication.Cookies</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Authentication/" class="dropdown-item">Microsoft.AspNetCore.Authentication</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Authorization.Infrastructure/" class="dropdown-item">Microsoft.AspNetCore.Authorization.Infrastructure</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Authorization.Policy/" class="dropdown-item">Microsoft.AspNetCore.Authorization.Policy</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Authorization/" class="dropdown-item">Microsoft.AspNetCore.Authorization</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Builder/" class="dropdown-item">Microsoft.AspNetCore.Builder</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Components.CompilerServices/" class="dropdown-item">Microsoft.AspNetCore.Components.CompilerServices</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Components.Forms/" class="dropdown-item">Microsoft.AspNetCore.Components.Forms</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Components.RenderTree/" class="dropdown-item">Microsoft.AspNetCore.Components.RenderTree</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Components.Rendering/" class="dropdown-item">Microsoft.AspNetCore.Components.Rendering</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Components.Routing/" class="dropdown-item">Microsoft.AspNetCore.Components.Routing</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Components.Web.Virtualization/" class="dropdown-item">Microsoft.AspNetCore.Components.Web.Virtualization</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Components.Web/" class="dropdown-item">Microsoft.AspNetCore.Components.Web</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Components/" class="dropdown-item">Microsoft.AspNetCore.Components</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Connections.Features/" class="dropdown-item">Microsoft.AspNetCore.Connections.Features</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Connections/" class="dropdown-item">Microsoft.AspNetCore.Connections</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel/" class="dropdown-item">Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.DataProtection.Internal/" class="dropdown-item">Microsoft.AspNetCore.DataProtection.Internal</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Diagnostics/" class="dropdown-item">Microsoft.AspNetCore.Diagnostics</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Hosting/" class="dropdown-item">Microsoft.AspNetCore.Hosting</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Http.Features/" class="dropdown-item">Microsoft.AspNetCore.Http.Features</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Http.HttpResults/" class="dropdown-item">Microsoft.AspNetCore.Http.HttpResults</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Http.Metadata/" class="dropdown-item">Microsoft.AspNetCore.Http.Metadata</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Http/" class="dropdown-item">Microsoft.AspNetCore.Http</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.HttpLogging/" class="dropdown-item">Microsoft.AspNetCore.HttpLogging</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Identity/" class="dropdown-item">Microsoft.AspNetCore.Identity</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.ApplicationModels/" class="dropdown-item">Microsoft.AspNetCore.Mvc.ApplicationModels</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.Infrastructure/" class="dropdown-item">Microsoft.AspNetCore.Mvc.Infrastructure</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.ModelBinding.Binders/" class="dropdown-item">Microsoft.AspNetCore.Mvc.ModelBinding.Binders</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.ModelBinding.Metadata/" class="dropdown-item">Microsoft.AspNetCore.Mvc.ModelBinding.Metadata</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.ModelBinding/" class="dropdown-item">Microsoft.AspNetCore.Mvc.ModelBinding</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.RazorPages/" class="dropdown-item">Microsoft.AspNetCore.Mvc.RazorPages</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.Rendering/" class="dropdown-item">Microsoft.AspNetCore.Mvc.Rendering</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.Routing/" class="dropdown-item">Microsoft.AspNetCore.Mvc.Routing</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc.ViewFeatures/" class="dropdown-item">Microsoft.AspNetCore.Mvc.ViewFeatures</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Mvc/" class="dropdown-item">Microsoft.AspNetCore.Mvc</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.OutputCaching/" class="dropdown-item">Microsoft.AspNetCore.OutputCaching</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.RateLimiting/" class="dropdown-item">Microsoft.AspNetCore.RateLimiting</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.RequestDecompression/" class="dropdown-item">Microsoft.AspNetCore.RequestDecompression</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.ResponseCompression/" class="dropdown-item">Microsoft.AspNetCore.ResponseCompression</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Routing.Patterns/" class="dropdown-item">Microsoft.AspNetCore.Routing.Patterns</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Routing/" class="dropdown-item">Microsoft.AspNetCore.Routing</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Server.IIS.Core/" class="dropdown-item">Microsoft.AspNetCore.Server.IIS.Core</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Server.Kestrel.Core/" class="dropdown-item">Microsoft.AspNetCore.Server.Kestrel.Core</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Server.Kestrel.Https/" class="dropdown-item">Microsoft.AspNetCore.Server.Kestrel.Https</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.Server.Kestrel.Transport.Quic/" class="dropdown-item">Microsoft.AspNetCore.Server.Kestrel.Transport.Quic</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.SignalR.Protocol/" class="dropdown-item">Microsoft.AspNetCore.SignalR.Protocol</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.SignalR/" class="dropdown-item">Microsoft.AspNetCore.SignalR</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.AspNetCore.WebUtilities/" class="dropdown-item">Microsoft.AspNetCore.WebUtilities</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Caching.Distributed/" class="dropdown-item">Microsoft.Extensions.Caching.Distributed</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Caching.Memory/" class="dropdown-item">Microsoft.Extensions.Caching.Memory</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Configuration.CommandLine/" class="dropdown-item">Microsoft.Extensions.Configuration.CommandLine</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Configuration.EnvironmentVariables/" class="dropdown-item">Microsoft.Extensions.Configuration.EnvironmentVariables</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Configuration.Ini/" class="dropdown-item">Microsoft.Extensions.Configuration.Ini</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Configuration.Memory/" class="dropdown-item">Microsoft.Extensions.Configuration.Memory</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Configuration.Xml/" class="dropdown-item">Microsoft.Extensions.Configuration.Xml</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Configuration/" class="dropdown-item">Microsoft.Extensions.Configuration</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.DependencyInjection.Extensions/" class="dropdown-item">Microsoft.Extensions.DependencyInjection.Extensions</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.DependencyInjection/" class="dropdown-item">Microsoft.Extensions.DependencyInjection</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.FileProviders.Physical/" class="dropdown-item">Microsoft.Extensions.FileProviders.Physical</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.FileProviders/" class="dropdown-item">Microsoft.Extensions.FileProviders</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.FileSystemGlobbing.Abstractions/" class="dropdown-item">Microsoft.Extensions.FileSystemGlobbing.Abstractions</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments/" class="dropdown-item">Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts/" class="dropdown-item">Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.FileSystemGlobbing/" class="dropdown-item">Microsoft.Extensions.FileSystemGlobbing</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Hosting.Internal/" class="dropdown-item">Microsoft.Extensions.Hosting.Internal</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Hosting/" class="dropdown-item">Microsoft.Extensions.Hosting</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Http/" class="dropdown-item">Microsoft.Extensions.Http</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Logging.Abstractions/" class="dropdown-item">Microsoft.Extensions.Logging.Abstractions</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Logging.Configuration/" class="dropdown-item">Microsoft.Extensions.Logging.Configuration</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Logging.Console/" class="dropdown-item">Microsoft.Extensions.Logging.Console</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Logging.EventLog/" class="dropdown-item">Microsoft.Extensions.Logging.EventLog</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Logging.TraceSource/" class="dropdown-item">Microsoft.Extensions.Logging.TraceSource</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Logging/" class="dropdown-item">Microsoft.Extensions.Logging</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.ObjectPool/" class="dropdown-item">Microsoft.Extensions.ObjectPool</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Options/" class="dropdown-item">Microsoft.Extensions.Options</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Extensions.Primitives/" class="dropdown-item">Microsoft.Extensions.Primitives</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.JSInterop.Infrastructure/" class="dropdown-item">Microsoft.JSInterop.Infrastructure</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.JSInterop/" class="dropdown-item">Microsoft.JSInterop</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_Microsoft.Net.Http.Headers/" class="dropdown-item">Microsoft.Net.Http.Headers</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_System.Diagnostics.Eventing.Reader/" class="dropdown-item">System.Diagnostics.Eventing.Reader</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_System.Security.Claims/" class="dropdown-item">System.Security.Claims</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.AspNetCore.App/7.0_System.Threading.RateLimiting/" class="dropdown-item">System.Threading.RateLimiting</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Microsoft.NETCore.App <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../7.0/" class="dropdown-item">API Difference 6.0 vs 7.0</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.VisualBasic.FileIO/" class="dropdown-item">Microsoft.VisualBasic.FileIO</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Win32.SafeHandles/" class="dropdown-item">Microsoft.Win32.SafeHandles</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_Microsoft.Win32/" class="dropdown-item">Microsoft.Win32</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Buffers/" class="dropdown-item">System.Buffers</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.CodeDom.Compiler/" class="dropdown-item">System.CodeDom.Compiler</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Collections.Generic/" class="dropdown-item">System.Collections.Generic</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Collections.Immutable/" class="dropdown-item">System.Collections.Immutable</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Collections.Specialized/" class="dropdown-item">System.Collections.Specialized</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Collections/" class="dropdown-item">System.Collections</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.ComponentModel.DataAnnotations/" class="dropdown-item">System.ComponentModel.DataAnnotations</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.ComponentModel.Design.Serialization/" class="dropdown-item">System.ComponentModel.Design.Serialization</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.ComponentModel/" class="dropdown-item">System.ComponentModel</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Data.Common/" class="dropdown-item">System.Data.Common</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Data.SqlTypes/" class="dropdown-item">System.Data.SqlTypes</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Data/" class="dropdown-item">System.Data</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Diagnostics.CodeAnalysis/" class="dropdown-item">System.Diagnostics.CodeAnalysis</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Diagnostics.Metrics/" class="dropdown-item">System.Diagnostics.Metrics</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Diagnostics.SymbolStore/" class="dropdown-item">System.Diagnostics.SymbolStore</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Diagnostics/" class="dropdown-item">System.Diagnostics</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Drawing/" class="dropdown-item">System.Drawing</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Formats.Asn1/" class="dropdown-item">System.Formats.Asn1</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Formats.Tar/" class="dropdown-item">System.Formats.Tar</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.IO.Compression/" class="dropdown-item">System.IO.Compression</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.IO.Pipes/" class="dropdown-item">System.IO.Pipes</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.IO/" class="dropdown-item">System.IO</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Linq/" class="dropdown-item">System.Linq</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Net.Http.Headers/" class="dropdown-item">System.Net.Http.Headers</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Net.Http.Json/" class="dropdown-item">System.Net.Http.Json</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Net.Http/" class="dropdown-item">System.Net.Http</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Net.Mail/" class="dropdown-item">System.Net.Mail</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Net.NetworkInformation/" class="dropdown-item">System.Net.NetworkInformation</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Net.Quic/" class="dropdown-item">System.Net.Quic</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Net.Security/" class="dropdown-item">System.Net.Security</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Net.Sockets/" class="dropdown-item">System.Net.Sockets</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Net.WebSockets/" class="dropdown-item">System.Net.WebSockets</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Net/" class="dropdown-item">System.Net</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">System.Numerics</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Reflection.Emit/" class="dropdown-item">System.Reflection.Emit</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Reflection.Metadata.Ecma335/" class="dropdown-item">System.Reflection.Metadata.Ecma335</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Reflection.Metadata/" class="dropdown-item">System.Reflection.Metadata</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Reflection.PortableExecutable/" class="dropdown-item">System.Reflection.PortableExecutable</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Reflection/" class="dropdown-item">System.Reflection</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Resources/" class="dropdown-item">System.Resources</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Runtime.CompilerServices/" class="dropdown-item">System.Runtime.CompilerServices</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Runtime.InteropServices.ComTypes/" class="dropdown-item">System.Runtime.InteropServices.ComTypes</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Runtime.InteropServices.JavaScript/" class="dropdown-item">System.Runtime.InteropServices.JavaScript</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Runtime.InteropServices.Marshalling/" class="dropdown-item">System.Runtime.InteropServices.Marshalling</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Runtime.InteropServices/" class="dropdown-item">System.Runtime.InteropServices</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Runtime.Intrinsics.Arm/" class="dropdown-item">System.Runtime.Intrinsics.Arm</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Runtime.Intrinsics.X86/" class="dropdown-item">System.Runtime.Intrinsics.X86</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Runtime.Intrinsics/" class="dropdown-item">System.Runtime.Intrinsics</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Runtime.Serialization.DataContracts/" class="dropdown-item">System.Runtime.Serialization.DataContracts</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Runtime.Serialization.Json/" class="dropdown-item">System.Runtime.Serialization.Json</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Runtime.Serialization/" class="dropdown-item">System.Runtime.Serialization</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Runtime.Versioning/" class="dropdown-item">System.Runtime.Versioning</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Runtime/" class="dropdown-item">System.Runtime</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Security.Authentication.ExtendedProtection/" class="dropdown-item">System.Security.Authentication.ExtendedProtection</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Security.Authentication/" class="dropdown-item">System.Security.Authentication</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Security.Cryptography.X509Certificates/" class="dropdown-item">System.Security.Cryptography.X509Certificates</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Security.Cryptography/" class="dropdown-item">System.Security.Cryptography</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Security.Policy/" class="dropdown-item">System.Security.Policy</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Security/" class="dropdown-item">System.Security</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Text.Json.Nodes/" class="dropdown-item">System.Text.Json.Nodes</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Text.Json.Serialization.Metadata/" class="dropdown-item">System.Text.Json.Serialization.Metadata</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Text.Json.Serialization/" class="dropdown-item">System.Text.Json.Serialization</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Text.Json/" class="dropdown-item">System.Text.Json</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Text.RegularExpressions/" class="dropdown-item">System.Text.RegularExpressions</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Text.Unicode/" class="dropdown-item">System.Text.Unicode</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Text/" class="dropdown-item">System.Text</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Threading.Tasks.Dataflow/" class="dropdown-item">System.Threading.Tasks.Dataflow</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Threading.Tasks/" class="dropdown-item">System.Threading.Tasks</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Threading/" class="dropdown-item">System.Threading</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Timers/" class="dropdown-item">System.Timers</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Transactions/" class="dropdown-item">System.Transactions</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Web/" class="dropdown-item">System.Web</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Xml.Linq/" class="dropdown-item">System.Xml.Linq</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Xml.Schema/" class="dropdown-item">System.Xml.Schema</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Xml.Serialization/" class="dropdown-item">System.Xml.Serialization</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Xml.XPath/" class="dropdown-item">System.Xml.XPath</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Xml.Xsl/" class="dropdown-item">System.Xml.Xsl</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System.Xml/" class="dropdown-item">System.Xml</a>
+</li>
+                                    
+<li>
+    <a href="../7.0_System/" class="dropdown-item">System</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Microsoft.WindowsDesktop.App <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0/" class="dropdown-item">API Difference 6.0 vs 7.0</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Diagnostics.Eventing.Reader/" class="dropdown-item">System.Diagnostics.Eventing.Reader</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Diagnostics/" class="dropdown-item">System.Diagnostics</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Drawing.Design/" class="dropdown-item">System.Drawing.Design</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Drawing.Imaging/" class="dropdown-item">System.Drawing.Imaging</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Drawing.Printing/" class="dropdown-item">System.Drawing.Printing</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Drawing/" class="dropdown-item">System.Drawing</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Resources.Tools/" class="dropdown-item">System.Resources.Tools</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Security.Cryptography.Pkcs/" class="dropdown-item">System.Security.Cryptography.Pkcs</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Security.Cryptography.X509Certificates/" class="dropdown-item">System.Security.Cryptography.X509Certificates</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Security.Permissions/" class="dropdown-item">System.Security.Permissions</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Security.Policy/" class="dropdown-item">System.Security.Policy</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Windows.Forms.Design/" class="dropdown-item">System.Windows.Forms.Design</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Windows.Forms.Layout/" class="dropdown-item">System.Windows.Forms.Layout</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Windows.Forms.PropertyGridInternal/" class="dropdown-item">System.Windows.Forms.PropertyGridInternal</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Windows.Forms/" class="dropdown-item">System.Windows.Forms</a>
+</li>
+                                    
+<li>
+    <a href="../../Microsoft.WindowsDesktop.App/7.0_System.Xaml.Permissions/" class="dropdown-item">System.Xaml.Permissions</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../7.0_System.Net/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../7.0_System.Reflection.Emit/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#systemnumerics" class="nav-link">System.Numerics</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="systemnumerics">System.Numerics</h1>
+<pre><code class="language-diff"> namespace System.Numerics {
+-    public readonly struct BigInteger : IComparable, IComparable&lt;BigInteger&gt;, IEquatable&lt;BigInteger&gt;, IFormattable, ISpanFormattable {
++    public readonly struct BigInteger : IAdditionOperators&lt;BigInteger, BigInteger, BigInteger&gt;, IAdditiveIdentity&lt;BigInteger, BigInteger&gt;, IBinaryInteger&lt;BigInteger&gt;, IBinaryNumber&lt;BigInteger&gt;, IBitwiseOperators&lt;BigInteger, BigInteger, BigInteger&gt;, IComparable, IComparable&lt;BigInteger&gt;, IComparisonOperators&lt;BigInteger, BigInteger, bool&gt;, IDecrementOperators&lt;BigInteger&gt;, IDivisionOperators&lt;BigInteger, BigInteger, BigInteger&gt;, IEqualityOperators&lt;BigInteger, BigInteger, bool&gt;, IEquatable&lt;BigInteger&gt;, IFormattable, IIncrementOperators&lt;BigInteger&gt;, IModulusOperators&lt;BigInteger, BigInteger, BigInteger&gt;, IMultiplicativeIdentity&lt;BigInteger, BigInteger&gt;, IMultiplyOperators&lt;BigInteger, BigInteger, BigInteger&gt;, INumber&lt;BigInteger&gt;, INumberBase&lt;BigInteger&gt;, IParsable&lt;BigInteger&gt;, IShiftOperators&lt;BigInteger, int, BigInteger&gt;, ISignedNumber&lt;BigInteger&gt;, ISpanFormattable, ISpanParsable&lt;BigInteger&gt;, ISubtractionOperators&lt;BigInteger, BigInteger, BigInteger&gt;, IUnaryNegationOperators&lt;BigInteger, BigInteger&gt;, IUnaryPlusOperators&lt;BigInteger, BigInteger&gt; {
++        static BigInteger System.Numerics.IAdditiveIdentity&lt;System.Numerics.BigInteger,System.Numerics.BigInteger&gt;.AdditiveIdentity { get; }
++        static BigInteger System.Numerics.IBinaryNumber&lt;System.Numerics.BigInteger&gt;.AllBitsSet { get; }
++        static BigInteger System.Numerics.IMultiplicativeIdentity&lt;System.Numerics.BigInteger,System.Numerics.BigInteger&gt;.MultiplicativeIdentity { get; }
++        static int System.Numerics.INumberBase&lt;System.Numerics.BigInteger&gt;.Radix { get; }
++        static BigInteger System.Numerics.ISignedNumber&lt;System.Numerics.BigInteger&gt;.NegativeOne { get; }
++        public static BigInteger Clamp(BigInteger value, BigInteger min, BigInteger max);
++        public static BigInteger CopySign(BigInteger value, BigInteger sign);
++        public static BigInteger CreateChecked&lt;TOther&gt;(TOther value) where TOther : INumberBase&lt;TOther&gt;;
++        public static BigInteger CreateSaturating&lt;TOther&gt;(TOther value) where TOther : INumberBase&lt;TOther&gt;;
++        public static BigInteger CreateTruncating&lt;TOther&gt;(TOther value) where TOther : INumberBase&lt;TOther&gt;;
++        public static (BigInteger Quotient, BigInteger Remainder) DivRem(BigInteger left, BigInteger right);
++        public static bool IsEvenInteger(BigInteger value);
++        public static bool IsNegative(BigInteger value);
++        public static bool IsOddInteger(BigInteger value);
++        public static bool IsPositive(BigInteger value);
++        public static bool IsPow2(BigInteger value);
++        public static BigInteger LeadingZeroCount(BigInteger value);
++        public static BigInteger Log2(BigInteger value);
++        public static BigInteger MaxMagnitude(BigInteger x, BigInteger y);
++        public static BigInteger MinMagnitude(BigInteger x, BigInteger y);
++        public static explicit operator BigInteger (Half value);
++        public static explicit operator char (BigInteger value);
++        public static explicit operator Half (BigInteger value);
++        public static explicit operator Int128 (BigInteger value);
++        public static explicit operator IntPtr (BigInteger value);
++        public static explicit operator UInt128 (BigInteger value);
++        public static explicit operator UIntPtr (BigInteger value);
++        public static explicit operator BigInteger (Complex value);
++        public static implicit operator BigInteger (char value);
++        public static implicit operator BigInteger (Int128 value);
++        public static implicit operator BigInteger (IntPtr value);
++        public static implicit operator BigInteger (UInt128 value);
++        public static implicit operator BigInteger (UIntPtr value);
++        public static BigInteger operator &gt;&gt;&gt;(BigInteger value, int shiftAmount);
++        public static BigInteger Parse(ReadOnlySpan&lt;char&gt; s, IFormatProvider? provider);
++        public static BigInteger PopCount(BigInteger value);
++        public static BigInteger RotateLeft(BigInteger value, int rotateAmount);
++        public static BigInteger RotateRight(BigInteger value, int rotateAmount);
++        int IBinaryInteger&lt;BigInteger&gt;.GetByteCount();
++        int IBinaryInteger&lt;BigInteger&gt;.GetShortestBitLength();
++        static bool IBinaryInteger&lt;BigInteger&gt;.TryReadBigEndian(ReadOnlySpan&lt;byte&gt; source, bool isUnsigned, out BigInteger value);
++        static bool IBinaryInteger&lt;BigInteger&gt;.TryReadLittleEndian(ReadOnlySpan&lt;byte&gt; source, bool isUnsigned, out BigInteger value);
++        bool IBinaryInteger&lt;BigInteger&gt;.TryWriteBigEndian(Span&lt;byte&gt; destination, out int bytesWritten);
++        bool IBinaryInteger&lt;BigInteger&gt;.TryWriteLittleEndian(Span&lt;byte&gt; destination, out int bytesWritten);
++        static BigInteger INumber&lt;BigInteger&gt;.MaxNumber(BigInteger x, BigInteger y);
++        static BigInteger INumber&lt;BigInteger&gt;.MinNumber(BigInteger x, BigInteger y);
++        static int INumber&lt;BigInteger&gt;.Sign(BigInteger value);
++        static bool INumberBase&lt;BigInteger&gt;.IsCanonical(BigInteger value);
++        static bool INumberBase&lt;BigInteger&gt;.IsComplexNumber(BigInteger value);
++        static bool INumberBase&lt;BigInteger&gt;.IsFinite(BigInteger value);
++        static bool INumberBase&lt;BigInteger&gt;.IsImaginaryNumber(BigInteger value);
++        static bool INumberBase&lt;BigInteger&gt;.IsInfinity(BigInteger value);
++        static bool INumberBase&lt;BigInteger&gt;.IsInteger(BigInteger value);
++        static bool INumberBase&lt;BigInteger&gt;.IsNaN(BigInteger value);
++        static bool INumberBase&lt;BigInteger&gt;.IsNegativeInfinity(BigInteger value);
++        static bool INumberBase&lt;BigInteger&gt;.IsNormal(BigInteger value);
++        static bool INumberBase&lt;BigInteger&gt;.IsPositiveInfinity(BigInteger value);
++        static bool INumberBase&lt;BigInteger&gt;.IsRealNumber(BigInteger value);
++        static bool INumberBase&lt;BigInteger&gt;.IsSubnormal(BigInteger value);
++        static bool INumberBase&lt;BigInteger&gt;.IsZero(BigInteger value);
++        static BigInteger INumberBase&lt;BigInteger&gt;.MaxMagnitudeNumber(BigInteger x, BigInteger y);
++        static BigInteger INumberBase&lt;BigInteger&gt;.MinMagnitudeNumber(BigInteger x, BigInteger y);
++        static bool INumberBase&lt;BigInteger&gt;.TryConvertFromChecked&lt;TOther&gt;(TOther value, out BigInteger result);
++        static bool INumberBase&lt;BigInteger&gt;.TryConvertFromSaturating&lt;TOther&gt;(TOther value, out BigInteger result);
++        static bool INumberBase&lt;BigInteger&gt;.TryConvertFromTruncating&lt;TOther&gt;(TOther value, out BigInteger result);
++        static bool INumberBase&lt;BigInteger&gt;.TryConvertToChecked&lt;TOther&gt;(BigInteger value, out TOther result);
++        static bool INumberBase&lt;BigInteger&gt;.TryConvertToSaturating&lt;TOther&gt;(BigInteger value, out TOther result);
++        static bool INumberBase&lt;BigInteger&gt;.TryConvertToTruncating&lt;TOther&gt;(BigInteger value, out TOther result);
+         public string ToString(string? format);
+         public string ToString(string? format, IFormatProvider? provider);
++        public static BigInteger TrailingZeroCount(BigInteger value);
+         public bool TryFormat(Span&lt;char&gt; destination, out int charsWritten, ReadOnlySpan&lt;char&gt; format = default(ReadOnlySpan&lt;char&gt;), IFormatProvider? provider = null);
++        public static bool TryParse(ReadOnlySpan&lt;char&gt; s, IFormatProvider? provider, out BigInteger result);
++        public static bool TryParse(string? s, IFormatProvider? provider, out BigInteger result);
+     }
+     public static class BitOperations {
++        public static bool IsPow2(IntPtr value);
++        public static bool IsPow2(UIntPtr value);
++        public static int LeadingZeroCount(UIntPtr value);
++        public static int Log2(UIntPtr value);
++        public static int PopCount(UIntPtr value);
++        public static UIntPtr RotateLeft(UIntPtr value, int offset);
++        public static UIntPtr RotateRight(UIntPtr value, int offset);
++        public static UIntPtr RoundUpToPowerOf2(UIntPtr value);
++        public static int TrailingZeroCount(IntPtr value);
++        public static int TrailingZeroCount(UIntPtr value);
+     }
+-    public readonly struct Complex : IEquatable&lt;Complex&gt;, IFormattable {
++    public readonly struct Complex : IAdditionOperators&lt;Complex, Complex, Complex&gt;, IAdditiveIdentity&lt;Complex, Complex&gt;, IDecrementOperators&lt;Complex&gt;, IDivisionOperators&lt;Complex, Complex, Complex&gt;, IEqualityOperators&lt;Complex, Complex, bool&gt;, IEquatable&lt;Complex&gt;, IFormattable, IIncrementOperators&lt;Complex&gt;, IMultiplicativeIdentity&lt;Complex, Complex&gt;, IMultiplyOperators&lt;Complex, Complex, Complex&gt;, INumberBase&lt;Complex&gt;, IParsable&lt;Complex&gt;, ISignedNumber&lt;Complex&gt;, ISpanFormattable, ISpanParsable&lt;Complex&gt;, ISubtractionOperators&lt;Complex, Complex, Complex&gt;, IUnaryNegationOperators&lt;Complex, Complex&gt;, IUnaryPlusOperators&lt;Complex, Complex&gt; {
++        static Complex System.Numerics.IAdditiveIdentity&lt;System.Numerics.Complex,System.Numerics.Complex&gt;.AdditiveIdentity { get; }
++        static Complex System.Numerics.IMultiplicativeIdentity&lt;System.Numerics.Complex,System.Numerics.Complex&gt;.MultiplicativeIdentity { get; }
++        static Complex System.Numerics.INumberBase&lt;System.Numerics.Complex&gt;.One { get; }
++        static int System.Numerics.INumberBase&lt;System.Numerics.Complex&gt;.Radix { get; }
++        static Complex System.Numerics.INumberBase&lt;System.Numerics.Complex&gt;.Zero { get; }
++        static Complex System.Numerics.ISignedNumber&lt;System.Numerics.Complex&gt;.NegativeOne { get; }
++        public static Complex CreateChecked&lt;TOther&gt;(TOther value) where TOther : INumberBase&lt;TOther&gt;;
++        public static Complex CreateSaturating&lt;TOther&gt;(TOther value) where TOther : INumberBase&lt;TOther&gt;;
++        public static Complex CreateTruncating&lt;TOther&gt;(TOther value) where TOther : INumberBase&lt;TOther&gt;;
++        public static bool IsComplexNumber(Complex value);
++        public static bool IsEvenInteger(Complex value);
++        public static bool IsImaginaryNumber(Complex value);
++        public static bool IsInteger(Complex value);
++        public static bool IsNegative(Complex value);
++        public static bool IsNegativeInfinity(Complex value);
++        public static bool IsNormal(Complex value);
++        public static bool IsOddInteger(Complex value);
++        public static bool IsPositive(Complex value);
++        public static bool IsPositiveInfinity(Complex value);
++        public static bool IsRealNumber(Complex value);
++        public static bool IsSubnormal(Complex value);
++        public static Complex MaxMagnitude(Complex x, Complex y);
++        public static Complex MinMagnitude(Complex x, Complex y);
++        public static Complex operator --(Complex value);
++        public static explicit operator Complex (Int128 value);
++        public static explicit operator Complex (UInt128 value);
++        public static implicit operator Complex (char value);
++        public static implicit operator Complex (Half value);
++        public static implicit operator Complex (IntPtr value);
++        public static implicit operator Complex (UIntPtr value);
++        public static Complex operator ++(Complex value);
++        public static Complex operator +(Complex value);
++        public static Complex Parse(ReadOnlySpan&lt;char&gt; s, NumberStyles style, IFormatProvider? provider);
++        public static Complex Parse(ReadOnlySpan&lt;char&gt; s, IFormatProvider? provider);
++        public static Complex Parse(string s, NumberStyles style, IFormatProvider? provider);
++        public static Complex Parse(string s, IFormatProvider? provider);
++        static Complex INumberBase&lt;Complex&gt;.Abs(Complex value);
++        static bool INumberBase&lt;Complex&gt;.IsCanonical(Complex value);
++        static bool INumberBase&lt;Complex&gt;.IsZero(Complex value);
++        static Complex INumberBase&lt;Complex&gt;.MaxMagnitudeNumber(Complex x, Complex y);
++        static Complex INumberBase&lt;Complex&gt;.MinMagnitudeNumber(Complex x, Complex y);
++        static bool INumberBase&lt;Complex&gt;.TryConvertFromChecked&lt;TOther&gt;(TOther value, out Complex result);
++        static bool INumberBase&lt;Complex&gt;.TryConvertFromSaturating&lt;TOther&gt;(TOther value, out Complex result);
++        static bool INumberBase&lt;Complex&gt;.TryConvertFromTruncating&lt;TOther&gt;(TOther value, out Complex result);
++        static bool INumberBase&lt;Complex&gt;.TryConvertToChecked&lt;TOther&gt;(Complex value, out TOther result);
++        static bool INumberBase&lt;Complex&gt;.TryConvertToSaturating&lt;TOther&gt;(Complex value, out TOther result);
++        static bool INumberBase&lt;Complex&gt;.TryConvertToTruncating&lt;TOther&gt;(Complex value, out TOther result);
+         public string ToString(string? format);
+         public string ToString(string? format, IFormatProvider? provider);
++        public bool TryFormat(Span&lt;char&gt; destination, out int charsWritten, ReadOnlySpan&lt;char&gt; format, IFormatProvider? provider);
++        public static bool TryParse(ReadOnlySpan&lt;char&gt; s, NumberStyles style, IFormatProvider? provider, out Complex result);
++        public static bool TryParse(ReadOnlySpan&lt;char&gt; s, IFormatProvider? provider, out Complex result);
++        public static bool TryParse(string? s, NumberStyles style, IFormatProvider? provider, out Complex result);
++        public static bool TryParse(string? s, IFormatProvider? provider, out Complex result);
+     }
++    public interface IAdditionOperators&lt;TSelf, TOther, TResult&gt; where TSelf : IAdditionOperators&lt;TSelf, TOther, TResult&gt;? {
++        static abstract TResult operator +(TSelf left, TOther right);
++        static TResult operator checked +(TSelf left, TOther right);
++    }
++    public interface IAdditiveIdentity&lt;TSelf, TResult&gt; where TSelf : IAdditiveIdentity&lt;TSelf, TResult&gt;? {
++        static abstract TResult AdditiveIdentity { get; }
++    }
++    public interface IBinaryFloatingPointIeee754&lt;TSelf&gt; : IAdditionOperators&lt;TSelf, TSelf, TSelf&gt;, IAdditiveIdentity&lt;TSelf, TSelf&gt;, IBinaryNumber&lt;TSelf&gt;, IBitwiseOperators&lt;TSelf, TSelf, TSelf&gt;, IComparable, IComparable&lt;TSelf&gt;, IComparisonOperators&lt;TSelf, TSelf, bool&gt;, IDecrementOperators&lt;TSelf&gt;, IDivisionOperators&lt;TSelf, TSelf, TSelf&gt;, IEqualityOperators&lt;TSelf, TSelf, bool&gt;, IEquatable&lt;TSelf&gt;, IExponentialFunctions&lt;TSelf&gt;, IFloatingPoint&lt;TSelf&gt;, IFloatingPointConstants&lt;TSelf&gt;, IFloatingPointIeee754&lt;TSelf&gt;, IFormattable, IHyperbolicFunctions&lt;TSelf&gt;, IIncrementOperators&lt;TSelf&gt;, ILogarithmicFunctions&lt;TSelf&gt;, IModulusOperators&lt;TSelf, TSelf, TSelf&gt;, IMultiplicativeIdentity&lt;TSelf, TSelf&gt;, IMultiplyOperators&lt;TSelf, TSelf, TSelf&gt;, INumber&lt;TSelf&gt;, INumberBase&lt;TSelf&gt;, IParsable&lt;TSelf&gt;, IPowerFunctions&lt;TSelf&gt;, IRootFunctions&lt;TSelf&gt;, ISignedNumber&lt;TSelf&gt;, ISpanFormattable, ISpanParsable&lt;TSelf&gt;, ISubtractionOperators&lt;TSelf, TSelf, TSelf&gt;, ITrigonometricFunctions&lt;TSelf&gt;, IUnaryNegationOperators&lt;TSelf, TSelf&gt;, IUnaryPlusOperators&lt;TSelf, TSelf&gt; where TSelf : IBinaryFloatingPointIeee754&lt;TSelf&gt;?
++    public interface IBinaryInteger&lt;TSelf&gt; : IAdditionOperators&lt;TSelf, TSelf, TSelf&gt;, IAdditiveIdentity&lt;TSelf, TSelf&gt;, IBinaryNumber&lt;TSelf&gt;, IBitwiseOperators&lt;TSelf, TSelf, TSelf&gt;, IComparable, IComparable&lt;TSelf&gt;, IComparisonOperators&lt;TSelf, TSelf, bool&gt;, IDecrementOperators&lt;TSelf&gt;, IDivisionOperators&lt;TSelf, TSelf, TSelf&gt;, IEqualityOperators&lt;TSelf, TSelf, bool&gt;, IEquatable&lt;TSelf&gt;, IFormattable, IIncrementOperators&lt;TSelf&gt;, IModulusOperators&lt;TSelf, TSelf, TSelf&gt;, IMultiplicativeIdentity&lt;TSelf, TSelf&gt;, IMultiplyOperators&lt;TSelf, TSelf, TSelf&gt;, INumber&lt;TSelf&gt;, INumberBase&lt;TSelf&gt;, IParsable&lt;TSelf&gt;, IShiftOperators&lt;TSelf, int, TSelf&gt;, ISpanFormattable, ISpanParsable&lt;TSelf&gt;, ISubtractionOperators&lt;TSelf, TSelf, TSelf&gt;, IUnaryNegationOperators&lt;TSelf, TSelf&gt;, IUnaryPlusOperators&lt;TSelf, TSelf&gt; where TSelf : IBinaryInteger&lt;TSelf&gt;? {
++        static (TSelf Quotient, TSelf Remainder) DivRem(TSelf left, TSelf right);
++        int GetByteCount();
++        int GetShortestBitLength();
++        static TSelf LeadingZeroCount(TSelf value);
++        static abstract TSelf PopCount(TSelf value);
++        static TSelf ReadBigEndian(byte[] source, bool isUnsigned);
++        static TSelf ReadBigEndian(byte[] source, int startIndex, bool isUnsigned);
++        static TSelf ReadBigEndian(ReadOnlySpan&lt;byte&gt; source, bool isUnsigned);
++        static TSelf ReadLittleEndian(byte[] source, bool isUnsigned);
++        static TSelf ReadLittleEndian(byte[] source, int startIndex, bool isUnsigned);
++        static TSelf ReadLittleEndian(ReadOnlySpan&lt;byte&gt; source, bool isUnsigned);
++        static TSelf RotateLeft(TSelf value, int rotateAmount);
++        static TSelf RotateRight(TSelf value, int rotateAmount);
++        static abstract TSelf TrailingZeroCount(TSelf value);
++        static abstract bool TryReadBigEndian(ReadOnlySpan&lt;byte&gt; source, bool isUnsigned, out TSelf value);
++        static abstract bool TryReadLittleEndian(ReadOnlySpan&lt;byte&gt; source, bool isUnsigned, out TSelf value);
++        bool TryWriteBigEndian(Span&lt;byte&gt; destination, out int bytesWritten);
++        bool TryWriteLittleEndian(Span&lt;byte&gt; destination, out int bytesWritten);
++        int WriteBigEndian(byte[] destination);
++        int WriteBigEndian(byte[] destination, int startIndex);
++        int WriteBigEndian(Span&lt;byte&gt; destination);
++        int WriteLittleEndian(byte[] destination);
++        int WriteLittleEndian(byte[] destination, int startIndex);
++        int WriteLittleEndian(Span&lt;byte&gt; destination);
++    }
++    public interface IBinaryNumber&lt;TSelf&gt; : IAdditionOperators&lt;TSelf, TSelf, TSelf&gt;, IAdditiveIdentity&lt;TSelf, TSelf&gt;, IBitwiseOperators&lt;TSelf, TSelf, TSelf&gt;, IComparable, IComparable&lt;TSelf&gt;, IComparisonOperators&lt;TSelf, TSelf, bool&gt;, IDecrementOperators&lt;TSelf&gt;, IDivisionOperators&lt;TSelf, TSelf, TSelf&gt;, IEqualityOperators&lt;TSelf, TSelf, bool&gt;, IEquatable&lt;TSelf&gt;, IFormattable, IIncrementOperators&lt;TSelf&gt;, IModulusOperators&lt;TSelf, TSelf, TSelf&gt;, IMultiplicativeIdentity&lt;TSelf, TSelf&gt;, IMultiplyOperators&lt;TSelf, TSelf, TSelf&gt;, INumber&lt;TSelf&gt;, INumberBase&lt;TSelf&gt;, IParsable&lt;TSelf&gt;, ISpanFormattable, ISpanParsable&lt;TSelf&gt;, ISubtractionOperators&lt;TSelf, TSelf, TSelf&gt;, IUnaryNegationOperators&lt;TSelf, TSelf&gt;, IUnaryPlusOperators&lt;TSelf, TSelf&gt; where TSelf : IBinaryNumber&lt;TSelf&gt;? {
++        static TSelf AllBitsSet { get; }
++        static abstract bool IsPow2(TSelf value);
++        static abstract TSelf Log2(TSelf value);
++    }
++    public interface IBitwiseOperators&lt;TSelf, TOther, TResult&gt; where TSelf : IBitwiseOperators&lt;TSelf, TOther, TResult&gt;? {
++        static abstract TResult operator &amp;(TSelf left, TOther right);
++        static abstract TResult operator |(TSelf left, TOther right);
++        static abstract TResult operator ^(TSelf left, TOther right);
++        static abstract TResult operator ~(TSelf value);
++    }
++    public interface IComparisonOperators&lt;TSelf, TOther, TResult&gt; : IEqualityOperators&lt;TSelf, TOther, TResult&gt; where TSelf : IComparisonOperators&lt;TSelf, TOther, TResult&gt;? {
++        static abstract TResult operator &gt;(TSelf left, TOther right);
++        static abstract TResult operator &gt;=(TSelf left, TOther right);
++        static abstract TResult operator &lt;(TSelf left, TOther right);
++        static abstract TResult operator &lt;=(TSelf left, TOther right);
++    }
++    public interface IDecrementOperators&lt;TSelf&gt; where TSelf : IDecrementOperators&lt;TSelf&gt;? {
++        static TSelf operator checked --(TSelf value);
++        static abstract TSelf operator --(TSelf value);
++    }
++    public interface IDivisionOperators&lt;TSelf, TOther, TResult&gt; where TSelf : IDivisionOperators&lt;TSelf, TOther, TResult&gt;? {
++        static TResult operator checked /(TSelf left, TOther right);
++        static abstract TResult operator /(TSelf left, TOther right);
++    }
++    public interface IEqualityOperators&lt;TSelf, TOther, TResult&gt; where TSelf : IEqualityOperators&lt;TSelf, TOther, TResult&gt;? {
++        static abstract TResult operator ==(TSelf left, TOther right);
++        static abstract TResult operator !=(TSelf left, TOther right);
++    }
++    public interface IExponentialFunctions&lt;TSelf&gt; : IAdditionOperators&lt;TSelf, TSelf, TSelf&gt;, IAdditiveIdentity&lt;TSelf, TSelf&gt;, IDecrementOperators&lt;TSelf&gt;, IDivisionOperators&lt;TSelf, TSelf, TSelf&gt;, IEqualityOperators&lt;TSelf, TSelf, bool&gt;, IEquatable&lt;TSelf&gt;, IFloatingPointConstants&lt;TSelf&gt;, IFormattable, IIncrementOperators&lt;TSelf&gt;, IMultiplicativeIdentity&lt;TSelf, TSelf&gt;, IMultiplyOperators&lt;TSelf, TSelf, TSelf&gt;, INumberBase&lt;TSelf&gt;, IParsable&lt;TSelf&gt;, ISpanFormattable, ISpanParsable&lt;TSelf&gt;, ISubtractionOperators&lt;TSelf, TSelf, TSelf&gt;, IUnaryNegationOperators&lt;TSelf, TSelf&gt;, IUnaryPlusOperators&lt;TSelf, TSelf&gt; where TSelf : IExponentialFunctions&lt;TSelf&gt;? {
++        static abstract TSelf Exp(TSelf x);
++        static abstract TSelf Exp10(TSelf x);
++        static TSelf Exp10M1(TSelf x);
++        static abstract TSelf Exp2(TSelf x);
++        static TSelf Exp2M1(TSelf x);
++        static TSelf ExpM1(TSelf x);
++    }
++    public interface IFloatingPoint&lt;TSelf&gt; : IAdditionOperators&lt;TSelf, TSelf, TSelf&gt;, IAdditiveIdentity&lt;TSelf, TSelf&gt;, IComparable, IComparable&lt;TSelf&gt;, IComparisonOperators&lt;TSelf, TSelf, bool&gt;, IDecrementOperators&lt;TSelf&gt;, IDivisionOperators&lt;TSelf, TSelf, TSelf&gt;, IEqualityOperators&lt;TSelf, TSelf, bool&gt;, IEquatable&lt;TSelf&gt;, IFloatingPointConstants&lt;TSelf&gt;, IFormattable, IIncrementOperators&lt;TSelf&gt;, IModulusOperators&lt;TSelf, TSelf, TSelf&gt;, IMultiplicativeIdentity&lt;TSelf, TSelf&gt;, IMultiplyOperators&lt;TSelf, TSelf, TSelf&gt;, INumber&lt;TSelf&gt;, INumberBase&lt;TSelf&gt;, IParsable&lt;TSelf&gt;, ISignedNumber&lt;TSelf&gt;, ISpanFormattable, ISpanParsable&lt;TSelf&gt;, ISubtractionOperators&lt;TSelf, TSelf, TSelf&gt;, IUnaryNegationOperators&lt;TSelf, TSelf&gt;, IUnaryPlusOperators&lt;TSelf, TSelf&gt; where TSelf : IFloatingPoint&lt;TSelf&gt;? {
++        static TSelf Ceiling(TSelf x);
++        static TSelf Floor(TSelf x);
++        int GetExponentByteCount();
++        int GetExponentShortestBitLength();
++        int GetSignificandBitLength();
++        int GetSignificandByteCount();
++        static TSelf Round(TSelf x);
++        static TSelf Round(TSelf x, int digits);
++        static abstract TSelf Round(TSelf x, int digits, MidpointRounding mode);
++        static TSelf Round(TSelf x, MidpointRounding mode);
++        static TSelf Truncate(TSelf x);
++        bool TryWriteExponentBigEndian(Span&lt;byte&gt; destination, out int bytesWritten);
++        bool TryWriteExponentLittleEndian(Span&lt;byte&gt; destination, out int bytesWritten);
++        bool TryWriteSignificandBigEndian(Span&lt;byte&gt; destination, out int bytesWritten);
++        bool TryWriteSignificandLittleEndian(Span&lt;byte&gt; destination, out int bytesWritten);
++        int WriteExponentBigEndian(byte[] destination);
++        int WriteExponentBigEndian(byte[] destination, int startIndex);
++        int WriteExponentBigEndian(Span&lt;byte&gt; destination);
++        int WriteExponentLittleEndian(byte[] destination);
++        int WriteExponentLittleEndian(byte[] destination, int startIndex);
++        int WriteExponentLittleEndian(Span&lt;byte&gt; destination);
++        int WriteSignificandBigEndian(byte[] destination);
++        int WriteSignificandBigEndian(byte[] destination, int startIndex);
++        int WriteSignificandBigEndian(Span&lt;byte&gt; destination);
++        int WriteSignificandLittleEndian(byte[] destination);
++        int WriteSignificandLittleEndian(byte[] destination, int startIndex);
++        int WriteSignificandLittleEndian(Span&lt;byte&gt; destination);
++    }
++    public interface IFloatingPointConstants&lt;TSelf&gt; : IAdditionOperators&lt;TSelf, TSelf, TSelf&gt;, IAdditiveIdentity&lt;TSelf, TSelf&gt;, IDecrementOperators&lt;TSelf&gt;, IDivisionOperators&lt;TSelf, TSelf, TSelf&gt;, IEqualityOperators&lt;TSelf, TSelf, bool&gt;, IEquatable&lt;TSelf&gt;, IFormattable, IIncrementOperators&lt;TSelf&gt;, IMultiplicativeIdentity&lt;TSelf, TSelf&gt;, IMultiplyOperators&lt;TSelf, TSelf, TSelf&gt;, INumberBase&lt;TSelf&gt;, IParsable&lt;TSelf&gt;, ISpanFormattable, ISpanParsable&lt;TSelf&gt;, ISubtractionOperators&lt;TSelf, TSelf, TSelf&gt;, IUnaryNegationOperators&lt;TSelf, TSelf&gt;, IUnaryPlusOperators&lt;TSelf, TSelf&gt; where TSelf : IFloatingPointConstants&lt;TSelf&gt;? {
++        static abstract TSelf E { get; }
++        static abstract TSelf Pi { get; }
++        static abstract TSelf Tau { get; }
++    }
++    public interface IFloatingPointIeee754&lt;TSelf&gt; : IAdditionOperators&lt;TSelf, TSelf, TSelf&gt;, IAdditiveIdentity&lt;TSelf, TSelf&gt;, IComparable, IComparable&lt;TSelf&gt;, IComparisonOperators&lt;TSelf, TSelf, bool&gt;, IDecrementOperators&lt;TSelf&gt;, IDivisionOperators&lt;TSelf, TSelf, TSelf&gt;, IEqualityOperators&lt;TSelf, TSelf, bool&gt;, IEquatable&lt;TSelf&gt;, IExponentialFunctions&lt;TSelf&gt;, IFloatingPoint&lt;TSelf&gt;, IFloatingPointConstants&lt;TSelf&gt;, IFormattable, IHyperbolicFunctions&lt;TSelf&gt;, IIncrementOperators&lt;TSelf&gt;, ILogarithmicFunctions&lt;TSelf&gt;, IModulusOperators&lt;TSelf, TSelf, TSelf&gt;, IMultiplicativeIdentity&lt;TSelf, TSelf&gt;, IMultiplyOperators&lt;TSelf, TSelf, TSelf&gt;, INumber&lt;TSelf&gt;, INumberBase&lt;TSelf&gt;, IParsable&lt;TSelf&gt;, IPowerFunctions&lt;TSelf&gt;, IRootFunctions&lt;TSelf&gt;, ISignedNumber&lt;TSelf&gt;, ISpanFormattable, ISpanParsable&lt;TSelf&gt;, ISubtractionOperators&lt;TSelf, TSelf, TSelf&gt;, ITrigonometricFunctions&lt;TSelf&gt;, IUnaryNegationOperators&lt;TSelf, TSelf&gt;, IUnaryPlusOperators&lt;TSelf, TSelf&gt; where TSelf : IFloatingPointIeee754&lt;TSelf&gt;? {
++        static abstract TSelf Epsilon { get; }
++        static abstract TSelf NaN { get; }
++        static abstract TSelf NegativeInfinity { get; }
++        static abstract TSelf NegativeZero { get; }
++        static abstract TSelf PositiveInfinity { get; }
++        static abstract TSelf Atan2(TSelf y, TSelf x);
++        static abstract TSelf Atan2Pi(TSelf y, TSelf x);
++        static abstract TSelf BitDecrement(TSelf x);
++        static abstract TSelf BitIncrement(TSelf x);
++        static abstract TSelf FusedMultiplyAdd(TSelf left, TSelf right, TSelf addend);
++        static abstract TSelf Ieee754Remainder(TSelf left, TSelf right);
++        static abstract int ILogB(TSelf x);
++        static TSelf ReciprocalEstimate(TSelf x);
++        static TSelf ReciprocalSqrtEstimate(TSelf x);
++        static abstract TSelf ScaleB(TSelf x, int n);
++    }
++    public interface IHyperbolicFunctions&lt;TSelf&gt; : IAdditionOperators&lt;TSelf, TSelf, TSelf&gt;, IAdditiveIdentity&lt;TSelf, TSelf&gt;, IDecrementOperators&lt;TSelf&gt;, IDivisionOperators&lt;TSelf, TSelf, TSelf&gt;, IEqualityOperators&lt;TSelf, TSelf, bool&gt;, IEquatable&lt;TSelf&gt;, IFloatingPointConstants&lt;TSelf&gt;, IFormattable, IIncrementOperators&lt;TSelf&gt;, IMultiplicativeIdentity&lt;TSelf, TSelf&gt;, IMultiplyOperators&lt;TSelf, TSelf, TSelf&gt;, INumberBase&lt;TSelf&gt;, IParsable&lt;TSelf&gt;, ISpanFormattable, ISpanParsable&lt;TSelf&gt;, ISubtractionOperators&lt;TSelf, TSelf, TSelf&gt;, IUnaryNegationOperators&lt;TSelf, TSelf&gt;, IUnaryPlusOperators&lt;TSelf, TSelf&gt; where TSelf : IHyperbolicFunctions&lt;TSelf&gt;? {
++        static abstract TSelf Acosh(TSelf x);
++        static abstract TSelf Asinh(TSelf x);
++        static abstract TSelf Atanh(TSelf x);
++        static abstract TSelf Cosh(TSelf x);
++        static abstract TSelf Sinh(TSelf x);
++        static abstract TSelf Tanh(TSelf x);
++    }
++    public interface IIncrementOperators&lt;TSelf&gt; where TSelf : IIncrementOperators&lt;TSelf&gt;? {
++        static TSelf operator checked ++(TSelf value);
++        static abstract TSelf operator ++(TSelf value);
++    }
++    public interface ILogarithmicFunctions&lt;TSelf&gt; : IAdditionOperators&lt;TSelf, TSelf, TSelf&gt;, IAdditiveIdentity&lt;TSelf, TSelf&gt;, IDecrementOperators&lt;TSelf&gt;, IDivisionOperators&lt;TSelf, TSelf, TSelf&gt;, IEqualityOperators&lt;TSelf, TSelf, bool&gt;, IEquatable&lt;TSelf&gt;, IFloatingPointConstants&lt;TSelf&gt;, IFormattable, IIncrementOperators&lt;TSelf&gt;, IMultiplicativeIdentity&lt;TSelf, TSelf&gt;, IMultiplyOperators&lt;TSelf, TSelf, TSelf&gt;, INumberBase&lt;TSelf&gt;, IParsable&lt;TSelf&gt;, ISpanFormattable, ISpanParsable&lt;TSelf&gt;, ISubtractionOperators&lt;TSelf, TSelf, TSelf&gt;, IUnaryNegationOperators&lt;TSelf, TSelf&gt;, IUnaryPlusOperators&lt;TSelf, TSelf&gt; where TSelf : ILogarithmicFunctions&lt;TSelf&gt;? {
++        static abstract TSelf Log(TSelf x);
++        static abstract TSelf Log(TSelf x, TSelf newBase);
++        static abstract TSelf Log10(TSelf x);
++        static TSelf Log10P1(TSelf x);
++        static abstract TSelf Log2(TSelf x);
++        static TSelf Log2P1(TSelf x);
++        static TSelf LogP1(TSelf x);
++    }
++    public interface IMinMaxValue&lt;TSelf&gt; where TSelf : IMinMaxValue&lt;TSelf&gt;? {
++        static abstract TSelf MaxValue { get; }
++        static abstract TSelf MinValue { get; }
++    }
++    public interface IModulusOperators&lt;TSelf, TOther, TResult&gt; where TSelf : IModulusOperators&lt;TSelf, TOther, TResult&gt;? {
++        static abstract TResult operator %(TSelf left, TOther right);
++    }
++    public interface IMultiplicativeIdentity&lt;TSelf, TResult&gt; where TSelf : IMultiplicativeIdentity&lt;TSelf, TResult&gt;? {
++        static abstract TResult MultiplicativeIdentity { get; }
++    }
++    public interface IMultiplyOperators&lt;TSelf, TOther, TResult&gt; where TSelf : IMultiplyOperators&lt;TSelf, TOther, TResult&gt;? {
++        static TResult operator checked *(TSelf left, TOther right);
++        static abstract TResult operator *(TSelf left, TOther right);
++    }
++    public interface INumber&lt;TSelf&gt; : IAdditionOperators&lt;TSelf, TSelf, TSelf&gt;, IAdditiveIdentity&lt;TSelf, TSelf&gt;, IComparable, IComparable&lt;TSelf&gt;, IComparisonOperators&lt;TSelf, TSelf, bool&gt;, IDecrementOperators&lt;TSelf&gt;, IDivisionOperators&lt;TSelf, TSelf, TSelf&gt;, IEqualityOperators&lt;TSelf, TSelf, bool&gt;, IEquatable&lt;TSelf&gt;, IFormattable, IIncrementOperators&lt;TSelf&gt;, IModulusOperators&lt;TSelf, TSelf, TSelf&gt;, IMultiplicativeIdentity&lt;TSelf, TSelf&gt;, IMultiplyOperators&lt;TSelf, TSelf, TSelf&gt;, INumberBase&lt;TSelf&gt;, IParsable&lt;TSelf&gt;, ISpanFormattable, ISpanParsable&lt;TSelf&gt;, ISubtractionOperators&lt;TSelf, TSelf, TSelf&gt;, IUnaryNegationOperators&lt;TSelf, TSelf&gt;, IUnaryPlusOperators&lt;TSelf, TSelf&gt; where TSelf : INumber&lt;TSelf&gt;? {
++        static TSelf Clamp(TSelf value, TSelf min, TSelf max);
++        static TSelf CopySign(TSelf value, TSelf sign);
++        static TSelf Max(TSelf x, TSelf y);
++        static TSelf MaxNumber(TSelf x, TSelf y);
++        static TSelf Min(TSelf x, TSelf y);
++        static TSelf MinNumber(TSelf x, TSelf y);
++        static int Sign(TSelf value);
++    }
++    public interface INumberBase&lt;TSelf&gt; : IAdditionOperators&lt;TSelf, TSelf, TSelf&gt;, IAdditiveIdentity&lt;TSelf, TSelf&gt;, IDecrementOperators&lt;TSelf&gt;, IDivisionOperators&lt;TSelf, TSelf, TSelf&gt;, IEqualityOperators&lt;TSelf, TSelf, bool&gt;, IEquatable&lt;TSelf&gt;, IFormattable, IIncrementOperators&lt;TSelf&gt;, IMultiplicativeIdentity&lt;TSelf, TSelf&gt;, IMultiplyOperators&lt;TSelf, TSelf, TSelf&gt;, IParsable&lt;TSelf&gt;, ISpanFormattable, ISpanParsable&lt;TSelf&gt;, ISubtractionOperators&lt;TSelf, TSelf, TSelf&gt;, IUnaryNegationOperators&lt;TSelf, TSelf&gt;, IUnaryPlusOperators&lt;TSelf, TSelf&gt; where TSelf : INumberBase&lt;TSelf&gt;? {
++        static abstract TSelf One { get; }
++        static abstract int Radix { get; }
++        static abstract TSelf Zero { get; }
++        static abstract TSelf Abs(TSelf value);
++        static TSelf CreateChecked&lt;TOther&gt;(TOther value);
++        static TSelf CreateSaturating&lt;TOther&gt;(TOther value);
++        static TSelf CreateTruncating&lt;TOther&gt;(TOther value);
++        static abstract bool IsCanonical(TSelf value);
++        static abstract bool IsComplexNumber(TSelf value);
++        static abstract bool IsEvenInteger(TSelf value);
++        static abstract bool IsFinite(TSelf value);
++        static abstract bool IsImaginaryNumber(TSelf value);
++        static abstract bool IsInfinity(TSelf value);
++        static abstract bool IsInteger(TSelf value);
++        static abstract bool IsNaN(TSelf value);
++        static abstract bool IsNegative(TSelf value);
++        static abstract bool IsNegativeInfinity(TSelf value);
++        static abstract bool IsNormal(TSelf value);
++        static abstract bool IsOddInteger(TSelf value);
++        static abstract bool IsPositive(TSelf value);
++        static abstract bool IsPositiveInfinity(TSelf value);
++        static abstract bool IsRealNumber(TSelf value);
++        static abstract bool IsSubnormal(TSelf value);
++        static abstract bool IsZero(TSelf value);
++        static abstract TSelf MaxMagnitude(TSelf x, TSelf y);
++        static abstract TSelf MaxMagnitudeNumber(TSelf x, TSelf y);
++        static abstract TSelf MinMagnitude(TSelf x, TSelf y);
++        static abstract TSelf MinMagnitudeNumber(TSelf x, TSelf y);
++        static abstract TSelf Parse(ReadOnlySpan&lt;char&gt; s, NumberStyles style, IFormatProvider? provider);
++        static abstract TSelf Parse(string s, NumberStyles style, IFormatProvider? provider);
++        static abstract bool TryConvertFromChecked&lt;TOther&gt;(TOther value, out TSelf result);
++        static abstract bool TryConvertFromSaturating&lt;TOther&gt;(TOther value, out TSelf result);
++        static abstract bool TryConvertFromTruncating&lt;TOther&gt;(TOther value, out TSelf result);
++        static abstract bool TryConvertToChecked&lt;TOther&gt;(TSelf value, out TOther result);
++        static abstract bool TryConvertToSaturating&lt;TOther&gt;(TSelf value, out TOther result);
++        static abstract bool TryConvertToTruncating&lt;TOther&gt;(TSelf value, out TOther result);
++        static abstract bool TryParse(ReadOnlySpan&lt;char&gt; s, NumberStyles style, IFormatProvider? provider, out TSelf result);
++        static abstract bool TryParse(string? s, NumberStyles style, IFormatProvider? provider, out TSelf result);
++    }
++    public interface IPowerFunctions&lt;TSelf&gt; : IAdditionOperators&lt;TSelf, TSelf, TSelf&gt;, IAdditiveIdentity&lt;TSelf, TSelf&gt;, IDecrementOperators&lt;TSelf&gt;, IDivisionOperators&lt;TSelf, TSelf, TSelf&gt;, IEqualityOperators&lt;TSelf, TSelf, bool&gt;, IEquatable&lt;TSelf&gt;, IFormattable, IIncrementOperators&lt;TSelf&gt;, IMultiplicativeIdentity&lt;TSelf, TSelf&gt;, IMultiplyOperators&lt;TSelf, TSelf, TSelf&gt;, INumberBase&lt;TSelf&gt;, IParsable&lt;TSelf&gt;, ISpanFormattable, ISpanParsable&lt;TSelf&gt;, ISubtractionOperators&lt;TSelf, TSelf, TSelf&gt;, IUnaryNegationOperators&lt;TSelf, TSelf&gt;, IUnaryPlusOperators&lt;TSelf, TSelf&gt; where TSelf : IPowerFunctions&lt;TSelf&gt;? {
++        static abstract TSelf Pow(TSelf x, TSelf y);
++    }
++    public interface IRootFunctions&lt;TSelf&gt; : IAdditionOperators&lt;TSelf, TSelf, TSelf&gt;, IAdditiveIdentity&lt;TSelf, TSelf&gt;, IDecrementOperators&lt;TSelf&gt;, IDivisionOperators&lt;TSelf, TSelf, TSelf&gt;, IEqualityOperators&lt;TSelf, TSelf, bool&gt;, IEquatable&lt;TSelf&gt;, IFloatingPointConstants&lt;TSelf&gt;, IFormattable, IIncrementOperators&lt;TSelf&gt;, IMultiplicativeIdentity&lt;TSelf, TSelf&gt;, IMultiplyOperators&lt;TSelf, TSelf, TSelf&gt;, INumberBase&lt;TSelf&gt;, IParsable&lt;TSelf&gt;, ISpanFormattable, ISpanParsable&lt;TSelf&gt;, ISubtractionOperators&lt;TSelf, TSelf, TSelf&gt;, IUnaryNegationOperators&lt;TSelf, TSelf&gt;, IUnaryPlusOperators&lt;TSelf, TSelf&gt; where TSelf : IRootFunctions&lt;TSelf&gt;? {
++        static abstract TSelf Cbrt(TSelf x);
++        static abstract TSelf Hypot(TSelf x, TSelf y);
++        static abstract TSelf RootN(TSelf x, int n);
++        static abstract TSelf Sqrt(TSelf x);
++    }
++    public interface IShiftOperators&lt;TSelf, TOther, TResult&gt; where TSelf : IShiftOperators&lt;TSelf, TOther, TResult&gt;? {
++        static abstract TResult operator &lt;&lt;(TSelf value, TOther shiftAmount);
++        static abstract TResult operator &gt;&gt;(TSelf value, TOther shiftAmount);
++        static abstract TResult operator &gt;&gt;&gt;(TSelf value, TOther shiftAmount);
++    }
++    public interface ISignedNumber&lt;TSelf&gt; : IAdditionOperators&lt;TSelf, TSelf, TSelf&gt;, IAdditiveIdentity&lt;TSelf, TSelf&gt;, IDecrementOperators&lt;TSelf&gt;, IDivisionOperators&lt;TSelf, TSelf, TSelf&gt;, IEqualityOperators&lt;TSelf, TSelf, bool&gt;, IEquatable&lt;TSelf&gt;, IFormattable, IIncrementOperators&lt;TSelf&gt;, IMultiplicativeIdentity&lt;TSelf, TSelf&gt;, IMultiplyOperators&lt;TSelf, TSelf, TSelf&gt;, INumberBase&lt;TSelf&gt;, IParsable&lt;TSelf&gt;, ISpanFormattable, ISpanParsable&lt;TSelf&gt;, ISubtractionOperators&lt;TSelf, TSelf, TSelf&gt;, IUnaryNegationOperators&lt;TSelf, TSelf&gt;, IUnaryPlusOperators&lt;TSelf, TSelf&gt; where TSelf : ISignedNumber&lt;TSelf&gt;? {
++        static abstract TSelf NegativeOne { get; }
++    }
++    public interface ISubtractionOperators&lt;TSelf, TOther, TResult&gt; where TSelf : ISubtractionOperators&lt;TSelf, TOther, TResult&gt;? {
++        static TResult operator checked -(TSelf left, TOther right);
++        static abstract TResult operator -(TSelf left, TOther right);
++    }
++    public interface ITrigonometricFunctions&lt;TSelf&gt; : IAdditionOperators&lt;TSelf, TSelf, TSelf&gt;, IAdditiveIdentity&lt;TSelf, TSelf&gt;, IDecrementOperators&lt;TSelf&gt;, IDivisionOperators&lt;TSelf, TSelf, TSelf&gt;, IEqualityOperators&lt;TSelf, TSelf, bool&gt;, IEquatable&lt;TSelf&gt;, IFloatingPointConstants&lt;TSelf&gt;, IFormattable, IIncrementOperators&lt;TSelf&gt;, IMultiplicativeIdentity&lt;TSelf, TSelf&gt;, IMultiplyOperators&lt;TSelf, TSelf, TSelf&gt;, INumberBase&lt;TSelf&gt;, IParsable&lt;TSelf&gt;, ISpanFormattable, ISpanParsable&lt;TSelf&gt;, ISubtractionOperators&lt;TSelf, TSelf, TSelf&gt;, IUnaryNegationOperators&lt;TSelf, TSelf&gt;, IUnaryPlusOperators&lt;TSelf, TSelf&gt; where TSelf : ITrigonometricFunctions&lt;TSelf&gt;? {
++        static abstract TSelf Acos(TSelf x);
++        static abstract TSelf AcosPi(TSelf x);
++        static abstract TSelf Asin(TSelf x);
++        static abstract TSelf AsinPi(TSelf x);
++        static abstract TSelf Atan(TSelf x);
++        static abstract TSelf AtanPi(TSelf x);
++        static abstract TSelf Cos(TSelf x);
++        static abstract TSelf CosPi(TSelf x);
++        static abstract TSelf Sin(TSelf x);
++        static abstract (TSelf Sin, TSelf Cos) SinCos(TSelf x);
++        static abstract (TSelf SinPi, TSelf CosPi) SinCosPi(TSelf x);
++        static abstract TSelf SinPi(TSelf x);
++        static abstract TSelf Tan(TSelf x);
++        static abstract TSelf TanPi(TSelf x);
++    }
++    public interface IUnaryNegationOperators&lt;TSelf, TResult&gt; where TSelf : IUnaryNegationOperators&lt;TSelf, TResult&gt;? {
++        static TResult operator checked -(TSelf value);
++        static abstract TResult operator -(TSelf value);
++    }
++    public interface IUnaryPlusOperators&lt;TSelf, TResult&gt; where TSelf : IUnaryPlusOperators&lt;TSelf, TResult&gt;? {
++        static abstract TResult operator +(TSelf value);
++    }
++    public interface IUnsignedNumber&lt;TSelf&gt; : IAdditionOperators&lt;TSelf, TSelf, TSelf&gt;, IAdditiveIdentity&lt;TSelf, TSelf&gt;, IDecrementOperators&lt;TSelf&gt;, IDivisionOperators&lt;TSelf, TSelf, TSelf&gt;, IEqualityOperators&lt;TSelf, TSelf, bool&gt;, IEquatable&lt;TSelf&gt;, IFormattable, IIncrementOperators&lt;TSelf&gt;, IMultiplicativeIdentity&lt;TSelf, TSelf&gt;, IMultiplyOperators&lt;TSelf, TSelf, TSelf&gt;, INumberBase&lt;TSelf&gt;, IParsable&lt;TSelf&gt;, ISpanFormattable, ISpanParsable&lt;TSelf&gt;, ISubtractionOperators&lt;TSelf, TSelf, TSelf&gt;, IUnaryNegationOperators&lt;TSelf, TSelf&gt;, IUnaryPlusOperators&lt;TSelf, TSelf&gt; where TSelf : IUnsignedNumber&lt;TSelf&gt;?
+     public struct Matrix3x2 : IEquatable&lt;Matrix3x2&gt; {
++        public float this[int row, int column] { get; set; }
+     }
+     public struct Matrix4x4 : IEquatable&lt;Matrix4x4&gt; {
++        public float this[int row, int column] { get; set; }
+     }
+     public struct Quaternion : IEquatable&lt;Quaternion&gt; {
++        public float this[int index] { get; set; }
++        public static Quaternion Zero { get; }
+     }
+     public static class Vector {
++        public static Vector&lt;byte&gt; ShiftLeft(Vector&lt;byte&gt; value, int shiftCount);
++        public static Vector&lt;short&gt; ShiftLeft(Vector&lt;short&gt; value, int shiftCount);
++        public static Vector&lt;int&gt; ShiftLeft(Vector&lt;int&gt; value, int shiftCount);
++        public static Vector&lt;long&gt; ShiftLeft(Vector&lt;long&gt; value, int shiftCount);
++        public static Vector&lt;IntPtr&gt; ShiftLeft(Vector&lt;IntPtr&gt; value, int shiftCount);
++        public static Vector&lt;sbyte&gt; ShiftLeft(Vector&lt;sbyte&gt; value, int shiftCount);
++        public static Vector&lt;ushort&gt; ShiftLeft(Vector&lt;ushort&gt; value, int shiftCount);
++        public static Vector&lt;uint&gt; ShiftLeft(Vector&lt;uint&gt; value, int shiftCount);
++        public static Vector&lt;ulong&gt; ShiftLeft(Vector&lt;ulong&gt; value, int shiftCount);
++        public static Vector&lt;UIntPtr&gt; ShiftLeft(Vector&lt;UIntPtr&gt; value, int shiftCount);
++        public static Vector&lt;short&gt; ShiftRightArithmetic(Vector&lt;short&gt; value, int shiftCount);
++        public static Vector&lt;int&gt; ShiftRightArithmetic(Vector&lt;int&gt; value, int shiftCount);
++        public static Vector&lt;long&gt; ShiftRightArithmetic(Vector&lt;long&gt; value, int shiftCount);
++        public static Vector&lt;IntPtr&gt; ShiftRightArithmetic(Vector&lt;IntPtr&gt; value, int shiftCount);
++        public static Vector&lt;sbyte&gt; ShiftRightArithmetic(Vector&lt;sbyte&gt; value, int shiftCount);
++        public static Vector&lt;byte&gt; ShiftRightLogical(Vector&lt;byte&gt; value, int shiftCount);
++        public static Vector&lt;short&gt; ShiftRightLogical(Vector&lt;short&gt; value, int shiftCount);
++        public static Vector&lt;int&gt; ShiftRightLogical(Vector&lt;int&gt; value, int shiftCount);
++        public static Vector&lt;long&gt; ShiftRightLogical(Vector&lt;long&gt; value, int shiftCount);
++        public static Vector&lt;IntPtr&gt; ShiftRightLogical(Vector&lt;IntPtr&gt; value, int shiftCount);
++        public static Vector&lt;sbyte&gt; ShiftRightLogical(Vector&lt;sbyte&gt; value, int shiftCount);
++        public static Vector&lt;ushort&gt; ShiftRightLogical(Vector&lt;ushort&gt; value, int shiftCount);
++        public static Vector&lt;uint&gt; ShiftRightLogical(Vector&lt;uint&gt; value, int shiftCount);
++        public static Vector&lt;ulong&gt; ShiftRightLogical(Vector&lt;ulong&gt; value, int shiftCount);
++        public static Vector&lt;UIntPtr&gt; ShiftRightLogical(Vector&lt;UIntPtr&gt; value, int shiftCount);
+     }
+-    public struct Vector&lt;T&gt; : IEquatable&lt;Vector&lt;T&gt;&gt;, IFormattable where T : struct {
++    public readonly struct Vector&lt;T&gt; : IEquatable&lt;Vector&lt;T&gt;&gt;, IFormattable where T : struct {
++        public static bool IsSupported { get; }
+         public string ToString(string? format);
+         public string ToString(string? format, IFormatProvider? formatProvider);
+     }
+     public struct Vector2 : IEquatable&lt;Vector2&gt;, IFormattable {
++        public float this[int index] { get; set; }
+         public string ToString(string? format);
+         public string ToString(string? format, IFormatProvider? formatProvider);
+     }
+     public struct Vector3 : IEquatable&lt;Vector3&gt;, IFormattable {
++        public float this[int index] { get; set; }
+         public string ToString(string? format);
+         public string ToString(string? format, IFormatProvider? formatProvider);
+     }
+     public struct Vector4 : IEquatable&lt;Vector4&gt;, IFormattable {
++        public float this[int index] { get; set; }
+         public string ToString(string? format);
+         public string ToString(string? format, IFormatProvider? formatProvider);
+     }
+ }
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
